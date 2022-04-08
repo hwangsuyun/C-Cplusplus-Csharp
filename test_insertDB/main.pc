@@ -1,0 +1,76 @@
+#include <stdio.h>
+
+EXEC SQL BEGIN DECLARE SECTION;
+	char userId[4]= "mce";
+	char password[5]= "mce9";
+	char dbName[14]= "TEST_MEGAMART";
+
+	/* DB 실제 COLUMN */
+	int ERR_NO;
+	VARCHAR ERR_DATE[8+1];
+	VARCHAR ERR_PLACE[200+1];
+	int ERROR_LEVEL;
+	VARCHAR ERROR_CONTENTS[200+1];
+	/*VARCHAR CREATE_DATE[8+1];*/
+	VARCHAR CREATE_BY[10+1];
+	/*VARCHAR LAST_UPDATE_DATE[8+1];*/
+	VARCHAR LAST_UPDATE_BY[10+1];
+EXEC SQL END DECLARE SECTION;
+
+EXEC SQL INCLUDE SQLCA;
+EXEC SQL INCLUDE ORACA;
+
+int main(int argc, char **argv)
+{
+	int i;
+	
+	char err_date[10][8+1];
+	char err_place[10][200+1];
+	char error_contents[10][200+1];
+	char create_by[10][10+1];
+	char last_update_by[10][10+1];
+
+	memset(err_date, 0x00, sizeof(err_date));
+	memset(err_place, 0x00, sizeof(err_place));
+	memset(error_contents, 0x00, sizeof(error_contents));
+	memset(create_by, 0x00, sizeof(create_by));
+	memset(last_update_by, 0x00, sizeof(last_update_by));
+	
+	for (i = 0; i < 10; i++)
+	{
+		memcpy(err_date[i], "20150217", sizeof(err_date[i]));
+		memcpy(err_place[i], "1000", sizeof(err_place[i]));
+		memcpy(error_contents[i], "1000", sizeof(error_contents[i]));
+		memcpy(create_by[i], "1000", sizeof(create_by[i]));
+		memcpy(last_update_by[i], "1000", sizeof(last_update_by[i]));
+	}
+
+	EXEC SQL CONNECT :userId IDENTIFIED BY :password USING :dbName;
+
+	if (sqlca.sqlcode != 0)
+	{       
+		printf("1.%s\n", sqlca.sqlerrm.sqlerrmc);
+		EXEC SQL ROLLBACK WORK RELEASE; 
+		exit(0);
+	}       
+
+	/*EXEC SQL FOR:10*/
+	for (i = 0; i < 10; i++) {
+		EXEC SQL INSERT INTO
+		MT_EDI_ERRORLOG (ERR_NO, ERR_DATE, ERR_PLACE, ERROR_LEVEL, ERROR_CONTENTS, 
+		CREATE_BY, LAST_UPDATE_BY)
+		VALUES (:i+1, :err_date[i], :err_place[i], :i+1, :error_contents[i], :create_by[i], :last_update_by[i]);
+		/*VALUES (1, '20150217', '1000', :i, '1000', '1000', '1000');*/
+	}
+	if (sqlca.sqlcode !=0)
+	{
+		printf("2.%s\n", sqlca.sqlerrm.sqlerrmc); 
+		EXEC SQL ROLLBACK WORK RELEASE;
+		exit(0);
+	}
+
+	/* DB 연결 종료 */ 
+	EXEC SQL COMMIT WORK RELEASE;
+
+	return 0;
+}
