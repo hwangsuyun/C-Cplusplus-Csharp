@@ -1,0 +1,146 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <oraca.h>
+#include <sqlca.h>
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <signal.h>
+#include <stdarg.h>
+
+exec sql begin declare section;
+	char db_Sale_Date[8 + 1];
+	char db_Store_Code[4 + 1];
+	char db_Pos_No[4 + 1];
+	char db_Serial_No[8 + 1];
+	char db_Sub_Seq_No[2 + 1];
+	char db_Approve_Date[8 + 1];
+	char db_CardTerm[4 + 1];
+exec sql end declare section;
+
+int main()
+{
+	char appNo[10 + 1];
+	char appNo2[10 + 1];
+	long lineNum = 1;
+	
+	connect_db();
+
+	memset(appNo, 0x00, sizeof(appNo));
+	memcpy(appNo, "0008319733", sizeof(appNo));
+
+	EXEC SQL
+			SELECT SALE_DATE, STORE_CODE, POS_NO, SERIAL_NO, SUB_SEQ_NO, APPROVE_DATE, EFFECT_PERIOD
+		      INTO :db_Sale_Date, :db_Store_Code, :db_Pos_No, :db_Serial_No, :db_Sub_Seq_No, :db_Approve_Date, :db_CardTerm
+		      FROM CREDIT_SALE_SEND
+		     WHERE TRIM(CARD_NO) = '4599005437083627'
+		       AND TRIM(APPROVAL_NO) = :appNo
+		       AND EDI_LDATE = '20160523'
+		       AND TRANS_GUBUN = 'CB'
+		       AND SALE_DATE = '20160511';
+	
+	if (sqlca.sqlcode == 1403)
+	{
+		printf("error\n");
+		memset(appNo2, 0x00, sizeof(appNo2));
+		memcpy(appNo2, appNo + 2, sizeof(appNo2));
+		
+		EXEC SQL
+		        SELECT SALE_DATE, STORE_CODE, POS_NO, SERIAL_NO, SUB_SEQ_NO, APPROVE_DATE, EFFECT_PERIOD
+		          INTO :db_Sale_Date, :db_Store_Code, :db_Pos_No, :db_Serial_No, :db_Sub_Seq_No, :db_Approve_Date, :db_CardTerm
+	              FROM CREDIT_SALE_SEND
+			     WHERE TRIM(CARD_NO) = '4599005437083627'
+			       AND TRIM(APPROVAL_NO) = :appNo2
+			       AND EDI_LDATE = '20160523'
+			       AND TRANS_GUBUN = 'CB'
+			       AND SALE_DATE = '20160511';
+	}
+
+	printf("db_Sale_Date(%s)\n", db_Sale_Date);
+	printf("db_Store_Code(%s)\n", db_Store_Code);
+	printf("db_Pos_No(%s)\n", db_Pos_No);
+	printf("db_Serial_No(%s)\n", db_Serial_No);
+	printf("db_Sub_Seq_No(%s)\n", db_Sub_Seq_No);
+	printf("db_Approve_Date(%s)\n", db_Approve_Date);
+	printf("db_CardTerm(%s)\n", db_CardTerm);
+
+	lineNum++;
+	errorLog_Write("JTNET_RECV", 0, "%ld 라인 : 테스트 진행 중", lineNum);
+	
+	disconnect_db();
+	
+	return 0;
+}
+
+int connect_db()
+{
+	EXEC SQL BEGIN DECLARE SECTION;
+		char *username = "NDS/NDS@TEST_DB_5";
+	EXEC SQL END DECLARE SECTION;
+
+	EXEC SQL CONNECT :username;
+	if (sqlca.sqlcode < 0)
+	{
+		printf("\nCan not Connect Oracle Database !!!\n");
+		fflush(stdout);
+		return 0;
+	}
+	return 1;
+}
+
+int disconnect_db()
+{
+	{
+		struct sqlexd sqlstm;
+
+		sqlstm.sqlvsn = 10;
+		sqlstm.arrsiz = 2;
+		sqlstm.sqladtp = &sqladt;
+		sqlstm.sqltdsp = &sqltds;
+		sqlstm.iters = (unsigned int  )1;
+		sqlstm.offset = (unsigned int  )107;
+		sqlstm.cud = sqlcud0;
+		sqlstm.sqlest = (unsigned char  *)&sqlca;
+		sqlstm.sqlety = (unsigned short)0;
+		sqlcxt((void **)0, &sqlctx, &sqlstm, &sqlfpn);
+	}
+	return 1;
+}
+
+int errorLog_Write( char *pName, int level, char *message )
+{
+	EXEC SQL BEGIN DECLARE SECTION;
+	    int    v_EDI_errorlog;
+	EXEC SQL END DECLARE SECTION;
+	
+	EXEC SQL
+		SELECT S_EDI_ERRORLOG_S.NEXTVAL
+		INTO v_EDI_errorlog
+		FROM DUAL;
+
+	if (sqlca.sqlcode < 0) {
+		printf("edi_errorlog Table seq Error\n");
+		return(1);
+	}
+
+	printf("pName(%s), level(%d), message(%s)\n", pName, level, message);
+
+	EXEC SQL
+		INSERT INTO RMD.MT_EDI_ERRORLOG@RMD
+		( ERR_NO, ERR_DATE, ERR_PLACE, ERROR_LEVEL, ERROR_CONTENTS,
+		  CREATE_DATE, CREATE_BY, LAST_UPDATE_DATE, LAST_UPDATE_BY )
+		/*VALUES ( :v_EDI_errorlog, TO_CHAR(SYSDATE, 'YYYYMMDD'), :msgplace, :level, :message, */
+		VALUES ( :v_EDI_errorlog, TO_CHAR(SYSDATE, 'YYYYMMDD'), :pName, :level, :message,
+				SYSDATE, NULL, SYSDATE, NULL);
+
+	if (sqlca.sqlcode < 0){
+		printf("edi_errorlog Table Insert Error, sqlca.sqlcode[%d]\n", sqlca.sqlcode);
+		EXEC SQL ROLLBACK WORK RELEASE;
+		return(-1);
+	}
+	EXEC SQL COMMIT;
+
+	return 0;
+}
