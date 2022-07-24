@@ -1,0 +1,1127 @@
+[0][145003] DAEMON port(20040)
+[0][145003] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][145003] OK: Open_Server_Socket. port(20040). <startServer>
+[0][145003] CALL: sock_accept. <startServer>
+[0][145839] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][145839] CALL: sock_accept. <startServer>
+[0][145839] Client 133.9.100.5 CONNECTED. <startServer>
+[0][145839] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][145839] OK: ret(81). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}). <readSocket:tcp_lib.c>
+[0][145839] Recv from Client [4][81][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}] <serverMain>
+[0][153542] DAEMON port(20040)
+[0][153542] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][153542] OK: Open_Server_Socket. port(20040). <startServer>
+[0][153542] CALL: sock_accept. <startServer>
+[0][153603] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][153603] Client 133.9.100.5 CONNECTED. <startServer>
+[0][153603] CALL: sock_accept. <startServer>
+[0][153603] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][153603] OK: ret(81). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}). <readSocket:tcp_lib.c>
+[0][153603] Recv from Client [4][81][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}] <serverMain>
+[0][153625] DAEMON port(20040)
+[0][153625] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][153625] OK: Open_Server_Socket. port(20040). <startServer>
+[0][153625] CALL: sock_accept. <startServer>
+[0][153632] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][153632] Client 133.9.100.5 CONNECTED. <startServer>
+[0][153632] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][153632] OK: ret(81). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}). <readSocket:tcp_lib.c>
+[0][153632] Recv from Client [4][81][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}] <serverMain>
+[0][153632] Before Calling Func() parseRecvData
+[0][153632] CALL: sock_accept. <startServer>
+[0][154057] DAEMON port(20040)
+[0][154057] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][154057] OK: Open_Server_Socket. port(20040). <startServer>
+[0][154057] CALL: sock_accept. <startServer>
+[0][154109] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][154109] CALL: sock_accept. <startServer>
+[0][154109] Client 133.9.100.5 CONNECTED. <startServer>
+[0][154109] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154109] OK: ret(81). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}). <readSocket:tcp_lib.c>
+[0][154109] Recv from Client [4][81][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}] <serverMain>
+[0][154109] Before Calling Func() parseRecvData
+[0][154211] DAEMON port(20040)
+[0][154211] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][154211] OK: Open_Server_Socket. port(20040). <startServer>
+[0][154211] CALL: sock_accept. <startServer>
+[0][154223] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][154223] Client 133.9.100.5 CONNECTED. <startServer>
+[0][154223] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154223] OK: ret(81). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}). <readSocket:tcp_lib.c>
+[0][154223] Recv from Client [4][81][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK"			}] <serverMain>
+[0][154223] Before Calling Func() parseRecvData
+[0][154223] CALL: sock_accept. <startServer>
+[0][154817] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][154817] CALL: sock_accept. <startServer>
+[0][154817] Client 133.9.100.5 CONNECTED. <startServer>
+[0][154817] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154817] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][154817] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][154817] Before Calling Func() parseRecvData
+[0][160227] DAEMON port(20040)
+[0][160227] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][160227] OK: Open_Server_Socket. port(20040). <startServer>
+[0][160227] CALL: sock_accept. <startServer>
+[0][160236] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][160236] Client 133.9.100.5 CONNECTED. <startServer>
+[0][160236] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][160236] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][160236] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][160236] Before Calling Func() parseRecvData
+[0][160236] CALL: sock_accept. <startServer>
+[0][160704] DAEMON port(20040)
+[0][160704] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][160704] OK: Open_Server_Socket. port(20040). <startServer>
+[0][160704] CALL: sock_accept. <startServer>
+[0][160711] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][160711] Client 133.9.100.5 CONNECTED. <startServer>
+[0][160711] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][160711] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][160711] CALL: sock_accept. <startServer>
+[0][160711] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][160711] Before Calling Func() parseRecvData
+[0][160711] After  Calling Func() parseRecvData
+[0][160711] LineNum(97) : Start function reqLockSem()
+[0][160711] After opening Semaphore
+[0][160711] 109 : semVal = 1
+[0][160711] Source(S/ServerMain.c), Line(175) : keyName = Test1_CGV¤…ÿ_133.9.100.5_2016219_16711
+
+[0][160711] Source(S/ServerMain.c), Line(180) : fileName = ./keyfile/Test1_CGV¤…ÿ_133.9.100.5_2016219_16711
+
+[0][160711] Source(S/ServerMain.c), Line(187) : Directory "keyfile" is created.
+[0][160711] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":""}] <serverMain>
+[0][160725] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][160725] Client 133.9.100.5 CONNECTED. <startServer>
+[0][160725] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][160725] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][160725] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][160725] Before Calling Func() parseRecvData
+[0][160725] After  Calling Func() parseRecvData
+[0][160725] LineNum(97) : Start function reqLockSem()
+[0][160725] After opening Semaphore
+[0][160725] 109 : semVal = 0
+[0][160725] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":""}] <serverMain>
+[0][160725] CALL: sock_accept. <startServer>
+[0][161746] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][161746] CALL: sock_accept. <startServer>
+[0][161746] Client 133.9.100.5 CONNECTED. <startServer>
+[0][161746] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][161746] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][161746] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][161746] Before Calling Func() parseRecvData
+[0][161746] After  Calling Func() parseRecvData
+[0][161746] LineNum(97) : Start function reqLockSem()
+[0][161746] After opening Semaphore
+[0][161746] 109 : semVal = 0
+[0][161746] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":""}] <serverMain>
+[0][162026] DAEMON port(20040)
+[0][162026] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][162026] OK: Open_Server_Socket. port(20040). <startServer>
+[0][162026] CALL: sock_accept. <startServer>
+[0][162033] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][162033] Client 133.9.100.5 CONNECTED. <startServer>
+[0][162033] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][162033] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][162033] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][162033] Before Calling Func() parseRecvData
+[0][162033] After  Calling Func() parseRecvData
+[0][162033] LineNum(98) : Start function reqLockSem()
+[0][162033] After opening Semaphore
+[0][162033] 110 : semVal = 1
+[0][162033] Source(S/ServerMain.c), Line(176) : keyName = Test1_CGVz3ÿ_133.9.100.5_2016219_162033
+
+[0][162033] Source(S/ServerMain.c), Line(181) : fileName = ./keyfile/Test1_CGVz3ÿ_133.9.100.5_2016219_162033
+
+[0][162033] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":""}] <serverMain>
+[0][162033] CALL: sock_accept. <startServer>
+[0][162315] DAEMON port(20040)
+[0][162315] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][162315] OK: Open_Server_Socket. port(20040). <startServer>
+[0][162315] CALL: sock_accept. <startServer>
+[0][162321] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][162321] CALL: sock_accept. <startServer>
+[0][162321] Client 133.9.100.5 CONNECTED. <startServer>
+[0][162321] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][162321] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][162321] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][162321] Before Calling Func() parseRecvData
+[0][162321] After  Calling Func() parseRecvData
+[0][162321] LineNum(98) : Start function reqLockSem()
+[0][162321] After opening Semaphore
+[0][162321] 110 : semVal = 1
+[0][162321] Source(S/ServerMain.c), Line(176) : keyName = ÿÿÿÿ5__Uö5_2016219_162321
+
+[0][162321] Source(S/ServerMain.c), Line(181) : fileName = ./keyfile/ÿÿÿÿ5__Uö5_2016219_162321
+
+[0][162321] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":""}] <serverMain>
+[0][162627] DAEMON port(20040)
+[0][162627] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][162627] OK: Open_Server_Socket. port(20040). <startServer>
+[0][162627] CALL: sock_accept. <startServer>
+[0][162634] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][162634] Client 133.9.100.5 CONNECTED. <startServer>
+[0][162634] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][162634] CALL: sock_accept. <startServer>
+[0][162634] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][162634] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][162634] Before Calling Func() parseRecvData
+[0][162634] After  Calling Func() parseRecvData
+[0][162634] LineNum(98) : Start function reqLockSem()
+[0][162634] After opening Semaphore
+[0][162634] 110 : semVal = 1
+[0][162634] Source(S/ServerMain.c), Line(176) : keyName = ÿÿÿÿ5__Uö5_2016219_162634
+
+[0][162634] Source(S/ServerMain.c), Line(181) : fileName = ./keyfile/ÿÿÿÿ5__Uö5_2016219_162634
+
+[0][162634] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][162848] DAEMON port(20040)
+[0][162848] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][162848] OK: Open_Server_Socket. port(20040). <startServer>
+[0][162848] CALL: sock_accept. <startServer>
+[0][162855] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][162855] Client 133.9.100.5 CONNECTED. <startServer>
+[0][162855] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][162855] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][162855] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][162855] Before Calling Func() parseRecvData
+[0][162855] After  Calling Func() parseRecvData
+[0][162855] LineNum(99) : Start function reqLockSem()
+[0][162855] After opening Semaphore
+[0][162855] 111 : semVal = 1
+[0][162855] CALL: sock_accept. <startServer>
+[0][162855] Source(S/ServerMain.c), Line(177) : keyName = Test1_CGVy‡ÿ_133.9.100.5_2016219_162855
+
+[0][162855] Source(S/ServerMain.c), Line(182) : fileName = ./keyfile/Test1_CGVy‡ÿ_133.9.100.5_2016219_162855
+
+[0][162855] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][165944] DAEMON port(20040)
+[0][165944] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][165944] OK: Open_Server_Socket. port(20040). <startServer>
+[0][165944] CALL: sock_accept. <startServer>
+[0][165954] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][165954] Client 133.9.100.5 CONNECTED. <startServer>
+[0][165954] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][165954] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][165954] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][165954] Before Calling Func() parseRecvData
+[0][165954] After  Calling Func() parseRecvData
+[0][165954] LineNum(99) : Start function reqLockSem()
+[0][165954] After opening Semaphore
+[0][165954] 109 : semVal = 1
+[0][165954] Source(S/ServerMain.c), Line(172) : keyName = Test1_CGVgÝÿ_133.9.100.5_2016219_165954
+[0][165954] Source(S/ServerMain.c), Line(177) : fileName = ./keyfile/Test1_CGVgÝÿ_133.9.100.5_2016219_165954
+[0][165954] CALL: sock_accept. <startServer>
+[0][165954] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][170205] DAEMON port(20040)
+[0][170205] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][170205] OK: Open_Server_Socket. port(20040). <startServer>
+[0][170205] CALL: sock_accept. <startServer>
+[0][170213] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][170213] CALL: sock_accept. <startServer>
+[0][170213] Client 133.9.100.5 CONNECTED. <startServer>
+[0][170213] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][170213] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][170213] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][170213] Before Calling Func() parseRecvData
+[0][170213] After  Calling Func() parseRecvData
+[0][170213] LineNum(99) : Start function reqLockSem()
+[0][170213] After opening Semaphore
+[0][170213] 109 : semVal = 1
+[0][170213] Source(S/ServerMain.c), Line(171) : (Test1)
+[0][170213] Source(S/ServerMain.c), Line(172) : (CGVµiÿ)
+[0][170213] Source(S/ServerMain.c), Line(173) : (133.9.100.5)
+[0][170213] Source(S/ServerMain.c), Line(175) : keyName = Test1_CGVµiÿ_133.9.100.5_2016219_17213
+[0][170213] Source(S/ServerMain.c), Line(180) : fileName = ./keyfile/Test1_CGVµiÿ_133.9.100.5_2016219_17213
+[0][170213] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][170415] DAEMON port(20040)
+[0][170415] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][170415] OK: Open_Server_Socket. port(20040). <startServer>
+[0][170415] CALL: sock_accept. <startServer>
+[0][170424] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][170424] Client 133.9.100.5 CONNECTED. <startServer>
+[0][170424] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][170424] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][170424] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][170424] Before Calling Func() parseRecvData
+[0][170424] After  Calling Func() parseRecvData
+[0][170424] Source(S/ServerMain.c), Line(94) : (Test1)
+[0][170424] Source(S/ServerMain.c), Line(95) : (CGV2·ÿ)
+[0][170424] LineNum(99) : Start function reqLockSem()
+[0][170424] CALL: sock_accept. <startServer>
+[0][170424] After opening Semaphore
+[0][170424] 109 : semVal = 1
+[0][170424] Source(S/ServerMain.c), Line(171) : (Test1)
+[0][170424] Source(S/ServerMain.c), Line(172) : (CGV2·ÿ)
+[0][170424] Source(S/ServerMain.c), Line(173) : (133.9.100.5)
+[0][170424] Source(S/ServerMain.c), Line(175) : keyName = Test1_CGV2·ÿ_133.9.100.5_2016219_17424
+[0][170424] Source(S/ServerMain.c), Line(180) : fileName = ./keyfile/Test1_CGV2·ÿ_133.9.100.5_2016219_17424
+[0][170424] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][170645] DAEMON port(20040)
+[0][170645] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][170645] OK: Open_Server_Socket. port(20040). <startServer>
+[0][170645] CALL: sock_accept. <startServer>
+[0][170650] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][170650] CALL: sock_accept. <startServer>
+[0][170650] Client 133.9.100.5 CONNECTED. <startServer>
+[0][170650] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][170650] OK: ret(95). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}). <readSocket:tcp_lib.c>
+[0][170650] Recv from Client [4][95][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"" 			}] <serverMain>
+[0][170650] Before Calling Func() parseRecvData
+[0][170650] Source(S/ServerMain.c), Line(64) : (Test1)
+[0][170650] Source(S/ServerMain.c), Line(65) : (CGVÁÿ)
+[0][170650] After  Calling Func() parseRecvData
+[0][170650] Source(S/ServerMain.c), Line(96) : (Test1)
+[0][170650] Source(S/ServerMain.c), Line(97) : (CGVÁÿ)
+[0][170650] LineNum(101) : Start function reqLockSem()
+[0][170650] After opening Semaphore
+[0][170650] 111 : semVal = 1
+[0][170650] Source(S/ServerMain.c), Line(173) : (Test1)
+[0][170650] Source(S/ServerMain.c), Line(174) : (CGVÁÿ)
+[0][170650] Source(S/ServerMain.c), Line(175) : (133.9.100.5)
+[0][170650] Source(S/ServerMain.c), Line(177) : keyName = Test1_CGVÁÿ_133.9.100.5_2016219_17650
+[0][170650] Source(S/ServerMain.c), Line(182) : fileName = ./keyfile/Test1_CGVÁÿ_133.9.100.5_2016219_17650
+[0][170650] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][171336] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][171336] CALL: sock_accept. <startServer>
+[0][171336] Client 133.9.100.5 CONNECTED. <startServer>
+[0][171336] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][171336] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][171336] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][171336] Before Calling Func() parseRecvData
+[0][171336] Source(S/ServerMain.c), Line(64) : (Test1)
+[0][171336] Source(S/ServerMain.c), Line(65) : (CGVÁÿ)
+[0][171336] After  Calling Func() parseRecvData
+[0][171336] Source(S/ServerMain.c), Line(96) : (Test1)
+[0][171336] Source(S/ServerMain.c), Line(97) : (CGVÁÿ)
+[0][171336] LineNum(101) : Start function reqLockSem()
+[0][171336] After opening Semaphore
+[0][171336] 111 : semVal = 1
+[0][171336] Source(S/ServerMain.c), Line(173) : (Test1)
+[0][171336] Source(S/ServerMain.c), Line(174) : (CGVÁÿ)
+[0][171336] Source(S/ServerMain.c), Line(175) : (133.9.100.5)
+[0][171336] Source(S/ServerMain.c), Line(177) : keyName = Test1_CGVÁÿ_133.9.100.5_2016219_171336
+[0][171336] Source(S/ServerMain.c), Line(182) : fileName = ./keyfile/Test1_CGVÁÿ_133.9.100.5_2016219_171336
+[0][171336] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][171941] DAEMON port(20040)
+[0][171941] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][171941] OK: Open_Server_Socket. port(20040). <startServer>
+[0][171941] CALL: sock_accept. <startServer>
+[0][171951] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][171951] CALL: sock_accept. <startServer>
+[0][171951] Client 133.9.100.5 CONNECTED. <startServer>
+[0][171951] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][171951] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][171951] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][171951] Before Calling Func() parseRecvData
+[0][171951] Source(parse_data.c), Line(30) : ({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			})
+[0][171951] Source(parse_data.c), Line(31) : (Test1)
+[0][171951] Source(parse_data.c), Line(32) : (CGV0òÿ)
+[0][171951] Source(parse_data.c), Line(33) : (133.9.100.5)
+[0][171951] Source(parse_data.c), Line(34) : (LOCK)
+[0][171951] Source(parse_data.c), Line(35) : (DUMMY)
+[0][171951] Source(S/ServerMain.c), Line(64) : (Test1)
+[0][171951] Source(S/ServerMain.c), Line(65) : (CGV0òÿ)
+[0][171951] After  Calling Func() parseRecvData
+[0][171951] Source(S/ServerMain.c), Line(96) : (Test1)
+[0][171951] Source(S/ServerMain.c), Line(97) : (CGV0òÿ)
+[0][171951] LineNum(101) : Start function reqLockSem()
+[0][171951] After opening Semaphore
+[0][171951] 111 : semVal = 1
+[0][171951] Source(S/ServerMain.c), Line(173) : (Test1)
+[0][171951] Source(S/ServerMain.c), Line(174) : (CGV0òÿ)
+[0][171951] Source(S/ServerMain.c), Line(175) : (133.9.100.5)
+[0][171951] Source(S/ServerMain.c), Line(177) : keyName = Test1_CGV0òÿ_133.9.100.5_2016219_171951
+[0][171951] Source(S/ServerMain.c), Line(182) : fileName = ./keyfile/Test1_CGV0òÿ_133.9.100.5_2016219_171951
+[0][171951] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][172628] DAEMON port(20040)
+[0][172628] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][172628] OK: Open_Server_Socket. port(20040). <startServer>
+[0][172628] CALL: sock_accept. <startServer>
+[0][172716] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][172716] CALL: sock_accept. <startServer>
+[0][172716] Client 133.9.100.5 CONNECTED. <startServer>
+[0][172716] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][172716] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][172716] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][172716] Before Calling Func() parseRecvData
+[0][172716] Source(parse_data.c), Line(24) : ("Test1")
+[0][172716] Source(parse_data.c), Line(25) : ("CGV")
+[0][172716] Source(parse_data.c), Line(26) : ("133.9.100.5")
+[0][172716] Source(parse_data.c), Line(27) : ("LOCK")
+[0][172716] Source(parse_data.c), Line(28) : ("DUMMY")
+[0][172716] Source(parse_data.c), Line(36) : ({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			})
+[0][172716] Source(parse_data.c), Line(37) : (Test1)
+[0][172716] Source(parse_data.c), Line(38) : (CGVëÿ)
+[0][172716] Source(parse_data.c), Line(39) : (133.9.100.5)
+[0][172716] Source(parse_data.c), Line(40) : (LOCK)
+[0][172716] Source(parse_data.c), Line(41) : (DUMMY)
+[0][172716] Source(S/ServerMain.c), Line(64) : (Test1)
+[0][172716] Source(S/ServerMain.c), Line(65) : (CGVëÿ)
+[0][172716] After  Calling Func() parseRecvData
+[0][172716] Source(S/ServerMain.c), Line(96) : (Test1)
+[0][172716] Source(S/ServerMain.c), Line(97) : (CGVëÿ)
+[0][172716] LineNum(101) : Start function reqLockSem()
+[0][172716] After opening Semaphore
+[0][172716] 111 : semVal = 1
+[0][172716] Source(S/ServerMain.c), Line(173) : (Test1)
+[0][172716] Source(S/ServerMain.c), Line(174) : (CGVëÿ)
+[0][172716] Source(S/ServerMain.c), Line(175) : (133.9.100.5)
+[0][172716] Source(S/ServerMain.c), Line(177) : keyName = Test1_CGVëÿ_133.9.100.5_2016219_172716
+[0][172716] Source(S/ServerMain.c), Line(182) : fileName = ./keyfile/Test1_CGVëÿ_133.9.100.5_2016219_172716
+[0][172716] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][172945] DAEMON port(20040)
+[0][172945] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][172945] OK: Open_Server_Socket. port(20040). <startServer>
+[0][172945] CALL: sock_accept. <startServer>
+[0][172949] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][172949] Client 133.9.100.5 CONNECTED. <startServer>
+[0][172949] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][172949] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][172949] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][172949] Before Calling Func() parseRecvData
+[0][172949] Source(parse_data.c), Line(24) : ("Test1")
+[0][172949] Source(parse_data.c), Line(25) : ("CGV")
+[0][172949] Source(parse_data.c), Line(26) : ("133.9.100.5")
+[0][172949] Source(parse_data.c), Line(27) : ("LOCK")
+[0][172949] Source(parse_data.c), Line(28) : ("DUMMY")
+[0][172949] Source(parse_data.c), Line(36) : ({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			})
+[0][172949] Source(parse_data.c), Line(37) : (Test1)
+[0][172949] Source(parse_data.c), Line(38) : (CGV€´ÿ)
+[0][172949] Source(parse_data.c), Line(39) : (133.9.100.5)
+[0][172949] Source(parse_data.c), Line(40) : (LOCK)
+[0][172949] Source(parse_data.c), Line(41) : (DUMMY)
+[0][172949] Source(S/ServerMain.c), Line(64) : (Test1)
+[0][172949] Source(S/ServerMain.c), Line(65) : (CGV€´ÿ)
+[0][172949] After  Calling Func() parseRecvData
+[0][172949] Source(S/ServerMain.c), Line(96) : (Test1)
+[0][172949] Source(S/ServerMain.c), Line(97) : (CGV€´ÿ)
+[0][172949] LineNum(101) : Start function reqLockSem()
+[0][172949] After opening Semaphore
+[0][172949] 111 : semVal = 1
+[0][172949] Source(S/ServerMain.c), Line(173) : (Test1)
+[0][172949] Source(S/ServerMain.c), Line(174) : (CGV€´ÿ)
+[0][172949] Source(S/ServerMain.c), Line(175) : (133.9.100.5)
+[0][172949] Source(S/ServerMain.c), Line(177) : keyName = Test1_CGV€´ÿ_133.9.100.5_2016219_172949
+[0][172949] Source(S/ServerMain.c), Line(182) : fileName = ./keyfile/Test1_CGV€´ÿ_133.9.100.5_2016219_172949
+[0][172949] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][172949] CALL: sock_accept. <startServer>
+[0][173013] DAEMON port(20040)
+[0][173013] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][173013] OK: Open_Server_Socket. port(20040). <startServer>
+[0][173013] CALL: sock_accept. <startServer>
+[0][173019] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][173019] Client 133.9.100.5 CONNECTED. <startServer>
+[0][173019] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][173019] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][173019] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][173019] Before Calling Func() parseRecvData
+[0][173019] Source(parse_data.c), Line(24) : ("Test1")
+[0][173019] Source(parse_data.c), Line(25) : (7)
+[0][173019] Source(parse_data.c), Line(26) : ("CGV")
+[0][173019] Source(parse_data.c), Line(27) : (5)
+[0][173019] Source(parse_data.c), Line(28) : ("133.9.100.5")
+[0][173019] Source(parse_data.c), Line(29) : (13)
+[0][173019] Source(parse_data.c), Line(30) : ("LOCK")
+[0][173019] Source(parse_data.c), Line(31) : (6)
+[0][173019] Source(parse_data.c), Line(32) : ("DUMMY")
+[0][173019] Source(parse_data.c), Line(33) : (7)
+[0][173019] Source(parse_data.c), Line(41) : ({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			})
+[0][173019] Source(parse_data.c), Line(42) : (Test1)
+[0][173019] Source(parse_data.c), Line(43) : (CGV¾0ÿ)
+[0][173019] Source(parse_data.c), Line(44) : (133.9.100.5)
+[0][173019] Source(parse_data.c), Line(45) : (LOCK)
+[0][173019] Source(parse_data.c), Line(46) : (DUMMY)
+[0][173019] Source(S/ServerMain.c), Line(64) : (Test1)
+[0][173019] Source(S/ServerMain.c), Line(65) : (CGV¾0ÿ)
+[0][173019] After  Calling Func() parseRecvData
+[0][173019] Source(S/ServerMain.c), Line(96) : (Test1)
+[0][173019] Source(S/ServerMain.c), Line(97) : (CGV¾0ÿ)
+[0][173019] LineNum(101) : Start function reqLockSem()
+[0][173019] After opening Semaphore
+[0][173019] 111 : semVal = 1
+[0][173019] Source(S/ServerMain.c), Line(173) : (Test1)
+[0][173019] Source(S/ServerMain.c), Line(174) : (CGV¾0ÿ)
+[0][173019] Source(S/ServerMain.c), Line(175) : (133.9.100.5)
+[0][173019] Source(S/ServerMain.c), Line(177) : keyName = Test1_CGV¾0ÿ_133.9.100.5_2016219_173019
+[0][173019] Source(S/ServerMain.c), Line(182) : fileName = ./keyfile/Test1_CGV¾0ÿ_133.9.100.5_2016219_173019
+[0][173019] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][173019] CALL: sock_accept. <startServer>
+[0][173507] DAEMON port(20040)
+[0][173507] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][173507] OK: Open_Server_Socket. port(20040). <startServer>
+[0][173507] CALL: sock_accept. <startServer>
+[0][173513] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][173513] CALL: sock_accept. <startServer>
+[0][173513] Client 133.9.100.5 CONNECTED. <startServer>
+[0][173513] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][173513] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][173513] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][173513] Before Calling Func() parseRecvData
+[0][173537] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][173537] Client 133.9.100.5 CONNECTED. <startServer>
+[0][173537] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][173537] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][173537] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][173537] Before Calling Func() parseRecvData
+[0][173537] CALL: sock_accept. <startServer>
+[0][173646] DAEMON port(20040)
+[0][173646] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][173646] OK: Open_Server_Socket. port(20040). <startServer>
+[0][173646] CALL: sock_accept. <startServer>
+[0][173654] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][173654] Client 133.9.100.5 CONNECTED. <startServer>
+[0][173654] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][173654] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][173654] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][173654] CALL: sock_accept. <startServer>
+[0][173723] DAEMON port(20040)
+[0][173723] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][173723] OK: Open_Server_Socket. port(20040). <startServer>
+[0][173723] CALL: sock_accept. <startServer>
+[0][173727] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][173727] CALL: sock_accept. <startServer>
+[0][173727] Client 133.9.100.5 CONNECTED. <startServer>
+[0][173727] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][173727] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][173727] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][173727] 1efore Calling Func() parseRecvData
+[0][173727] 2efore Calling Func() parseRecvData
+[0][173816] DAEMON port(20040)
+[0][173816] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][173816] OK: Open_Server_Socket. port(20040). <startServer>
+[0][173816] CALL: sock_accept. <startServer>
+[0][173820] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][173820] CALL: sock_accept. <startServer>
+[0][173820] Client 133.9.100.5 CONNECTED. <startServer>
+[0][173820] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][173820] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][173820] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][173820] Before Calling Func() parseRecvData
+[0][173820] Source(parse_data.c), Line(24) : ("Test1")
+[0][173820] Source(parse_data.c), Line(25) : (7)
+[0][173820] Source(parse_data.c), Line(26) : ("CGV")
+[0][173820] Source(parse_data.c), Line(27) : (5)
+[0][173820] Source(parse_data.c), Line(28) : ("133.9.100.5")
+[0][173820] Source(parse_data.c), Line(29) : (13)
+[0][173820] Source(parse_data.c), Line(30) : ("LOCK")
+[0][173820] Source(parse_data.c), Line(31) : (6)
+[0][173820] Source(parse_data.c), Line(32) : ("DUMMY")
+[0][173820] Source(parse_data.c), Line(33) : (7)
+[0][173820] Source(parse_data.c), Line(41) : ({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			})
+[0][173820] Source(parse_data.c), Line(42) : (Test1)
+[0][173820] Source(parse_data.c), Line(43) : (CGV)
+[0][173820] Source(parse_data.c), Line(44) : (133.9.100.5)
+[0][173820] Source(parse_data.c), Line(45) : (LOCK)
+[0][173820] Source(parse_data.c), Line(46) : (DUMMY)
+[0][173820] Source(S/ServerMain.c), Line(68) : (Test1)
+[0][173820] Source(S/ServerMain.c), Line(69) : (CGV)
+[0][173820] After  Calling Func() parseRecvData
+[0][173820] Source(S/ServerMain.c), Line(100) : (Test1)
+[0][173820] Source(S/ServerMain.c), Line(101) : (CGV)
+[0][173820] LineNum(105) : Start function reqLockSem()
+[0][173820] After opening Semaphore
+[0][173820] 115 : semVal = 1
+[0][173820] Source(S/ServerMain.c), Line(177) : (Test1)
+[0][173820] Source(S/ServerMain.c), Line(178) : (CGV)
+[0][173820] Source(S/ServerMain.c), Line(179) : (133.9.100.5)
+[0][173820] Source(S/ServerMain.c), Line(181) : keyName = Test1_CGV_133.9.100.5_2016219_173820
+[0][173820] Source(S/ServerMain.c), Line(186) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_173820
+[0][173820] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][174224] DAEMON port(20040)
+[0][174224] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][174224] OK: Open_Server_Socket. port(20040). <startServer>
+[0][174224] CALL: sock_accept. <startServer>
+[0][174232] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][174232] CALL: sock_accept. <startServer>
+[0][174232] Client 133.9.100.5 CONNECTED. <startServer>
+[0][174232] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][174232] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][174232] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][174232] Before Calling Func() parseRecvData
+[0][174232] Source(parse_data.c), Line(24) : ("Test1")
+[0][174232] Source(parse_data.c), Line(25) : (7)
+[0][174232] Source(parse_data.c), Line(26) : ("CGV")
+[0][174232] Source(parse_data.c), Line(27) : (5)
+[0][174232] Source(parse_data.c), Line(28) : ("133.9.100.5")
+[0][174232] Source(parse_data.c), Line(29) : (13)
+[0][174232] Source(parse_data.c), Line(30) : ("LOCK")
+[0][174232] Source(parse_data.c), Line(31) : (6)
+[0][174232] Source(parse_data.c), Line(32) : ("DUMMY")
+[0][174232] Source(parse_data.c), Line(33) : (7)
+[0][174232] Source(parse_data.c), Line(41) : ({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			})
+[0][174232] Source(parse_data.c), Line(42) : (Test1)
+[0][174232] Source(parse_data.c), Line(43) : (CGV)
+[0][174232] Source(parse_data.c), Line(44) : (133.9.100.5)
+[0][174232] Source(parse_data.c), Line(45) : (LOCK)
+[0][174232] Source(parse_data.c), Line(46) : (DUMMY)
+[0][174232] After  Calling Func() parseRecvData
+[0][174232] Source(S/ServerMain.c), Line(101) : (Test1)
+[0][174232] Source(S/ServerMain.c), Line(102) : (CGV)
+[0][174232] LineNum(106) : Start function reqLockSem()
+[0][174232] After opening Semaphore
+[0][174232] 116 : semVal = 1
+[0][174232] Source(S/ServerMain.c), Line(178) : (Test1)
+[0][174232] Source(S/ServerMain.c), Line(179) : (CGV)
+[0][174232] Source(S/ServerMain.c), Line(180) : (133.9.100.5)
+[0][174232] Source(S/ServerMain.c), Line(182) : keyName = Test1_CGV_133.9.100.5_2016219_174232
+[0][174232] Source(S/ServerMain.c), Line(187) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_174232
+[0][174232] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][174325] DAEMON port(20040)
+[0][174325] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][174325] OK: Open_Server_Socket. port(20040). <startServer>
+[0][174325] CALL: sock_accept. <startServer>
+[0][174331] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][174331] CALL: sock_accept. <startServer>
+[0][174331] Client 133.9.100.5 CONNECTED. <startServer>
+[0][174331] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][174331] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][174331] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][174402] DAEMON port(20040)
+[0][174402] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][174402] OK: Open_Server_Socket. port(20040). <startServer>
+[0][174402] CALL: sock_accept. <startServer>
+[0][174409] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][174409] Client 133.9.100.5 CONNECTED. <startServer>
+[0][174409] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][174409] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][174409] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][174409] Before Calling Func() parseRecvData
+[0][174409] Source(parse_data.c), Line(24) : ("Test1")
+[0][174409] Source(parse_data.c), Line(25) : (7)
+[0][174409] Source(parse_data.c), Line(26) : ("CGV")
+[0][174409] Source(parse_data.c), Line(27) : (5)
+[0][174409] Source(parse_data.c), Line(28) : ("133.9.100.5")
+[0][174409] Source(parse_data.c), Line(29) : (13)
+[0][174409] Source(parse_data.c), Line(30) : ("LOCK")
+[0][174409] Source(parse_data.c), Line(31) : (6)
+[0][174409] Source(parse_data.c), Line(32) : ("DUMMY")
+[0][174409] Source(parse_data.c), Line(33) : (7)
+[0][174409] Source(parse_data.c), Line(41) : ({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			})
+[0][174409] Source(parse_data.c), Line(42) : (Test1)
+[0][174409] Source(parse_data.c), Line(43) : (CGV)
+[0][174409] Source(parse_data.c), Line(44) : (133.9.100.5)
+[0][174409] Source(parse_data.c), Line(45) : (LOCK)
+[0][174409] Source(parse_data.c), Line(46) : (DUMMY)
+[0][174409] After  Calling Func() parseRecvData
+[0][174409] CALL: sock_accept. <startServer>
+[0][174743] DAEMON port(20040)
+[0][174743] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][174743] OK: Open_Server_Socket. port(20040). <startServer>
+[0][174743] CALL: sock_accept. <startServer>
+[0][174750] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][174750] Client 133.9.100.5 CONNECTED. <startServer>
+[0][174750] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][174750] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][174750] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][174750] Before Calling Func() parseRecvData
+[0][174750] After  Calling Func() parseRecvData
+[0][174750] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][174750] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][174750] LineNum(102) : Start function reqLockSem()
+[0][174750] After opening Semaphore
+[0][174750] 112 : semVal = 1
+[0][174750] CALL: sock_accept. <startServer>
+[0][174750] Source(S/ServerMain.c), Line(174) : (Test1)
+[0][174750] Source(S/ServerMain.c), Line(175) : (CGV)
+[0][174750] Source(S/ServerMain.c), Line(176) : (133.9.100.5)
+[0][174750] Source(S/ServerMain.c), Line(178) : keyName = Test1_CGV_133.9.100.5_2016219_174750
+[0][174750] Source(S/ServerMain.c), Line(183) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_174750
+[0][174750] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][180234] DAEMON port(20040)
+[0][180234] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][180234] OK: Open_Server_Socket. port(20040). <startServer>
+[0][180234] CALL: sock_accept. <startServer>
+[0][180247] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][180247] Client 133.9.100.5 CONNECTED. <startServer>
+[0][180247] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][180247] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][180247] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][180247] Before Calling Func() parseRecvData
+[0][180247] After  Calling Func() parseRecvData
+[0][180247] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][180247] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][180247] LineNum(102) : Start function reqLockSem()
+[0][180247] After opening Semaphore
+[0][180247] 112 : semVal = 1
+[0][180247] Source(S/ServerMain.c), Line(174) : (Test1)
+[0][180247] Source(S/ServerMain.c), Line(175) : (CGV)
+[0][180247] Source(S/ServerMain.c), Line(176) : (133.9.100.5)
+[0][180247] Source(S/ServerMain.c), Line(178) : keyName = Test1_CGV_133.9.100.5_2016219_18247
+[0][180247] Source(S/ServerMain.c), Line(183) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_18247
+[0][180247] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][180247] CALL: sock_accept. <startServer>
+[0][180630] DAEMON port(20040)
+[0][180630] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][180630] OK: Open_Server_Socket. port(20040). <startServer>
+[0][180630] CALL: sock_accept. <startServer>
+[0][180642] DAEMON port(20040)
+[0][180642] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][180642] OK: Open_Server_Socket. port(20040). <startServer>
+[0][180642] CALL: sock_accept. <startServer>
+[0][180645] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][180645] CALL: sock_accept. <startServer>
+[0][180645] Client 133.9.100.5 CONNECTED. <startServer>
+[0][180645] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][180645] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][180645] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][180645] Before Calling Func() parseRecvData
+[0][180645] After  Calling Func() parseRecvData
+[0][180645] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][180645] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][180645] LineNum(102) : Start function reqLockSem()
+[0][180645] After opening Semaphore
+[0][180645] 112 : semVal = 1
+[0][180645] Source(S/ServerMain.c), Line(175) : keyName = Test1_CGV_133.9.100.5_2016219_18645
+[0][180645] Source(S/ServerMain.c), Line(180) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_18645
+[0][180645] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][180744] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][180744] Client 133.9.100.5 CONNECTED. <startServer>
+[0][180744] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][180744] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][180744] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][180744] Before Calling Func() parseRecvData
+[0][180744] After  Calling Func() parseRecvData
+[0][180744] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][180744] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][180744] LineNum(102) : Start function reqLockSem()
+[0][180744] After opening Semaphore
+[0][180744] 112 : semVal = 0
+[0][180744] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][180744] CALL: sock_accept. <startServer>
+[0][180927] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][180927] Client 133.9.100.5 CONNECTED. <startServer>
+[0][180927] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][180927] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][180927] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][180927] Before Calling Func() parseRecvData
+[0][180927] After  Calling Func() parseRecvData
+[0][180927] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][180927] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][180927] LineNum(102) : Start function reqLockSem()
+[0][180927] After opening Semaphore
+[0][180927] 112 : semVal = 1
+[0][180927] Source(S/ServerMain.c), Line(175) : keyName = Test1_CGV_133.9.100.5_2016219_18927
+[0][180927] Source(S/ServerMain.c), Line(180) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_18927
+[0][180927] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][180927] CALL: sock_accept. <startServer>
+[0][181243] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][181243] CALL: sock_accept. <startServer>
+[0][181243] Client 133.9.100.5 CONNECTED. <startServer>
+[0][181243] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][181243] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][181243] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][181243] Before Calling Func() parseRecvData
+[0][181243] After  Calling Func() parseRecvData
+[0][181243] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][181243] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][181243] LineNum(102) : Start function reqLockSem()
+[0][181243] After opening Semaphore
+[0][181243] 112 : semVal = 0
+[0][181243] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][181349] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][181349] Client 133.9.100.5 CONNECTED. <startServer>
+[0][181349] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][181349] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][181349] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][181349] Before Calling Func() parseRecvData
+[0][181349] After  Calling Func() parseRecvData
+[0][181349] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][181349] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][181349] LineNum(102) : Start function reqLockSem()
+[0][181349] CALL: sock_accept. <startServer>
+[0][181349] After opening Semaphore
+[0][181349] 112 : semVal = 0
+[0][181349] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][181406] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][181406] CALL: sock_accept. <startServer>
+[0][181406] Client 133.9.100.5 CONNECTED. <startServer>
+[0][181406] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][181406] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][181406] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][181406] Before Calling Func() parseRecvData
+[0][181406] After  Calling Func() parseRecvData
+[0][181406] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][181406] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][181406] LineNum(102) : Start function reqLockSem()
+[0][181406] After opening Semaphore
+[0][181406] 112 : semVal = 0
+[0][181406] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][181416] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][181416] Client 133.9.100.5 CONNECTED. <startServer>
+[0][181416] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][181416] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][181416] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][181416] Before Calling Func() parseRecvData
+[0][181416] After  Calling Func() parseRecvData
+[0][181416] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][181416] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][181416] LineNum(102) : Start function reqLockSem()
+[0][181416] After opening Semaphore
+[0][181416] 112 : semVal = 0
+[0][181416] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][181416] CALL: sock_accept. <startServer>
+[0][181756] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][181756] CALL: sock_accept. <startServer>
+[0][181756] Client 133.9.100.5 CONNECTED. <startServer>
+[0][181756] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][181756] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][181756] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][181756] Before Calling Func() parseRecvData
+[0][181756] After  Calling Func() parseRecvData
+[0][181756] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][181756] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][181756] LineNum(102) : Start function reqLockSem()
+[0][181756] After opening Semaphore
+[0][181756] 112 : semVal = 0
+[0][181756] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][181827] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][181827] CALL: sock_accept. <startServer>
+[0][181827] Client 133.9.100.5 CONNECTED. <startServer>
+[0][181827] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][181827] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][181827] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][181827] Before Calling Func() parseRecvData
+[0][181827] After  Calling Func() parseRecvData
+[0][181827] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][181827] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][181827] LineNum(102) : Start function reqLockSem()
+[0][181827] After opening Semaphore
+[0][181827] 112 : semVal = 0
+[0][181827] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][182330] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][182330] Client 133.9.100.5 CONNECTED. <startServer>
+[0][182330] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][182330] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][182330] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][182330] Before Calling Func() parseRecvData
+[0][182330] After  Calling Func() parseRecvData
+[0][182330] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][182330] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][182330] LineNum(102) : Start function reqLockSem()
+[0][182330] After opening Semaphore
+[0][182330] 112 : semVal = 0
+[0][182330] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][182330] CALL: sock_accept. <startServer>
+[0][182359] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][182359] CALL: sock_accept. <startServer>
+[0][182359] Client 133.9.100.5 CONNECTED. <startServer>
+[0][182359] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][182359] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][182359] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][182359] Before Calling Func() parseRecvData
+[0][182359] After  Calling Func() parseRecvData
+[0][182359] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][182359] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][182359] LineNum(102) : Start function reqLockSem()
+[0][182359] After opening Semaphore
+[0][182359] 112 : semVal = 1
+[0][182359] Source(S/ServerMain.c), Line(175) : keyName = Test1_CGV_133.9.100.5_2016219_182359
+[0][182359] Source(S/ServerMain.c), Line(180) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_182359
+[0][182359] Send to Client [4][1024][{"resMsg":"Succeed Locking","resCd":"OK","key":"DUMMY"}] <serverMain>
+[0][182556] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][182556] Client 133.9.100.5 CONNECTED. <startServer>
+[0][182556] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][182556] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][182556] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][182556] Before Calling Func() parseRecvData
+[0][182556] After  Calling Func() parseRecvData
+[0][182556] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][182556] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][182556] LineNum(102) : Start function reqLockSem()
+[0][182556] After opening Semaphore
+[0][182556] 112 : semVal = 0
+[0][182556] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][182556] CALL: sock_accept. <startServer>
+[0][182628] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][182628] Client 133.9.100.5 CONNECTED. <startServer>
+[0][182628] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][182628] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][182628] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][182628] Before Calling Func() parseRecvData
+[0][182628] After  Calling Func() parseRecvData
+[0][182628] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][182628] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][182628] LineNum(102) : Start function reqLockSem()
+[0][182628] After opening Semaphore
+[0][182628] 112 : semVal = 0
+[0][182628] Send to Client [4][1024][{"resMsg":"There isn't any Semaphore to lock","resCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][182628] CALL: sock_accept. <startServer>
+[0][183046] DAEMON port(20040)
+[0][183046] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][183046] OK: Open_Server_Socket. port(20040). <startServer>
+[0][183046] CALL: sock_accept. <startServer>
+[0][183052] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][183052] CALL: sock_accept. <startServer>
+[0][183052] Client 133.9.100.5 CONNECTED. <startServer>
+[0][183052] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][183052] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][183052] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][183052] Before Calling Func() parseRecvData
+[0][183052] After  Calling Func() parseRecvData
+[0][183052] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][183052] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][183052] LineNum(101) : Start function reqLockSem()
+[0][183052] After opening Semaphore
+[0][183052] 111 : semVal = 1
+[0][183052] Source(S/ServerMain.c), Line(174) : keyName = Test1_CGV_133.9.100.5_2016219_183052
+[0][183052] Source(S/ServerMain.c), Line(178) : fileName = ./keyfile/Test1_CGV_133.9.100.5_2016219_183052
+[0][183052] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][183138] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][183138] Client 133.9.100.5 CONNECTED. <startServer>
+[0][183138] CALL: sock_accept. <startServer>
+[0][183138] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][183138] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][183138] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][183138] Before Calling Func() parseRecvData
+[0][183138] After  Calling Func() parseRecvData
+[0][183138] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][183138] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][183138] LineNum(101) : Start function reqLockSem()
+[0][183138] After opening Semaphore
+[0][183138] 111 : semVal = 0
+[0][183138] Send to Client [4][1024][{"msg":"There isn't any Semaphore to lock","msgCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][183156] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][183156] Client 133.9.100.5 CONNECTED. <startServer>
+[0][183156] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][183156] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][183156] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][183156] Before Calling Func() parseRecvData
+[0][183156] CALL: sock_accept. <startServer>
+[0][183156] After  Calling Func() parseRecvData
+[0][183156] Source(S/ServerMain.c), Line(97) : (Test1)
+[0][183156] Source(S/ServerMain.c), Line(98) : (CGV)
+[0][183156] LineNum(101) : Start function reqLockSem()
+[0][183156] After opening Semaphore
+[0][183156] 111 : semVal = 0
+[0][183156] Send to Client [4][1024][{"msg":"There isn't any Semaphore to lock","msgCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][205633] DAEMON port(20040)
+[0][205633] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][205633] OK: Open_Server_Socket. port(20040). <startServer>
+[0][205633] CALL: sock_accept. <startServer>
+[0][205954] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][205954] Client 133.9.100.5 CONNECTED. <startServer>
+[0][205954] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][205954] CALL: sock_accept. <startServer>
+[0][205954] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][205954] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][205954] Before Calling Func() parseRecvData
+[0][205954] After  Calling Func() parseRecvData
+[0][205954] LineNum(99) : Start function reqLockSem()
+[0][205954] After opening Semaphore
+[0][205954] 109 : semVal = 1
+[0][205954] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_205954
+[0][205954] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_205954
+[0][205954] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][210512] DAEMON port(20040)
+[0][210512] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][210512] OK: Open_Server_Socket. port(20040). <startServer>
+[0][210512] CALL: sock_accept. <startServer>
+[0][210530] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][210530] Client 133.9.100.5 CONNECTED. <startServer>
+[0][210530] CALL: sock_accept. <startServer>
+[0][210530] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][210530] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][210530] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][210530] Before Calling Func() parseRecvData
+[0][210530] After  Calling Func() parseRecvData
+[0][210530] LineNum(99) : Start function reqLockSem()
+[0][210530] After opening Semaphore
+[0][210530] 109 : semVal = 1
+[0][210530] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_210530
+[0][210530] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_210530
+[0][210530] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][210951] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][210951] Client 133.9.100.5 CONNECTED. <startServer>
+[0][210951] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][210951] CALL: sock_accept. <startServer>
+[0][210951] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][210951] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][210951] Before Calling Func() parseRecvData
+[0][210951] After  Calling Func() parseRecvData
+[0][210951] LineNum(99) : Start function reqLockSem()
+[0][210951] After opening Semaphore
+[0][210951] 109 : semVal = 0
+[0][210951] Send to Client [4][1024][{"msg":"There isn't any Semaphore to lock","msgCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][211036] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][211036] CALL: sock_accept. <startServer>
+[0][211036] Client 133.9.100.5 CONNECTED. <startServer>
+[0][211036] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211036] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][211036] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][211036] Before Calling Func() parseRecvData
+[0][211036] After  Calling Func() parseRecvData
+[0][211036] LineNum(99) : Start function reqLockSem()
+[0][211036] After opening Semaphore
+[0][211036] 109 : semVal = 1
+[0][211036] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_211036
+[0][211036] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_211036
+[0][211036] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][211152] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][211152] CALL: sock_accept. <startServer>
+[0][211152] Client 133.9.100.5 CONNECTED. <startServer>
+[0][211152] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211152] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][211152] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][211152] Before Calling Func() parseRecvData
+[0][211152] After  Calling Func() parseRecvData
+[0][211152] LineNum(99) : Start function reqLockSem()
+[0][211152] After opening Semaphore
+[0][211152] 109 : semVal = 1
+[0][211152] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_211152
+[0][211152] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_211152
+[0][211152] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][211437] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][211437] CALL: sock_accept. <startServer>
+[0][211437] Client 133.9.100.5 CONNECTED. <startServer>
+[0][211437] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211437] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][211437] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][211437] Before Calling Func() parseRecvData
+[0][211437] After  Calling Func() parseRecvData
+[0][211437] LineNum(99) : Start function reqLockSem()
+[0][211437] After opening Semaphore
+[0][211437] 109 : semVal = 1
+[0][211437] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_211437
+[0][211437] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_211437
+[0][211437] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][211517] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][211517] Client 133.9.100.5 CONNECTED. <startServer>
+[0][211517] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211517] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][211517] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][211517] Before Calling Func() parseRecvData
+[0][211517] After  Calling Func() parseRecvData
+[0][211517] LineNum(99) : Start function reqLockSem()
+[0][211517] After opening Semaphore
+[0][211517] 109 : semVal = 0
+[0][211517] Send to Client [4][1024][{"msg":"There isn't any Semaphore to lock","msgCd":"ERROR","key":"DUMMY"}] <serverMain>
+[0][211517] CALL: sock_accept. <startServer>
+[0][211540] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][211540] CALL: sock_accept. <startServer>
+[0][211540] Client 133.9.100.5 CONNECTED. <startServer>
+[0][211540] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211540] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][211540] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][211540] Before Calling Func() parseRecvData
+[0][211540] After  Calling Func() parseRecvData
+[0][211540] LineNum(99) : Start function reqLockSem()
+[0][211540] After opening Semaphore
+[0][211540] 109 : semVal = 1
+[0][211540] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_211540
+[0][211540] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_211540
+[0][211540] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][211814] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][211814] CALL: sock_accept. <startServer>
+[0][211814] Client 133.9.100.5 CONNECTED. <startServer>
+[0][211814] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211814] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][211814] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][211814] Before Calling Func() parseRecvData
+[0][211814] After  Calling Func() parseRecvData
+[0][211814] LineNum(99) : Start function reqLockSem()
+[0][211814] After opening Semaphore
+[0][211814] 109 : semVal = 1
+[0][211814] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_211814
+[0][211814] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_211814
+[0][211814] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][212110] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][212110] CALL: sock_accept. <startServer>
+[0][212110] Client 133.9.100.5 CONNECTED. <startServer>
+[0][212110] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212110] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][212110] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][212110] Before Calling Func() parseRecvData
+[0][212110] After  Calling Func() parseRecvData
+[0][212110] LineNum(99) : Start function reqLockSem()
+[0][212110] After opening Semaphore
+[0][212110] 109 : semVal = 1
+[0][212110] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_212110
+[0][212110] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_212110
+[0][212110] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"DUMMY"}] <serverMain>
+[0][212422] DAEMON port(20040)
+[0][212422] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][212422] OK: Open_Server_Socket. port(20040). <startServer>
+[0][212422] CALL: sock_accept. <startServer>
+[0][212451] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][212451] CALL: sock_accept. <startServer>
+[0][212451] Client 133.9.100.5 CONNECTED. <startServer>
+[0][212451] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212451] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][212451] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][212451] Before Calling Func() parseRecvData
+[0][212451] After  Calling Func() parseRecvData
+[0][212451] LineNum(99) : Start function reqLockSem()
+[0][212451] After opening Semaphore
+[0][212451] 109 : semVal = 1
+[0][212451] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_212451
+[0][212451] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_212451
+[0][212451] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"Test1_CGV_133.9.100.5_20160219_212451"}] <serverMain>
+[0][212757] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][212757] Client 133.9.100.5 CONNECTED. <startServer>
+[0][212757] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212757] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][212757] CALL: sock_accept. <startServer>
+[0][212757] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][212757] Before Calling Func() parseRecvData
+[0][212757] After  Calling Func() parseRecvData
+[0][212757] LineNum(99) : Start function reqLockSem()
+[0][212757] After opening Semaphore
+[0][212757] 109 : semVal = 1
+[0][212757] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_212757
+[0][212757] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_212757
+[0][212757] Source(S/ServerMain.c), Line(178) : Directory "keyfile" is created.
+[0][212757] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"Test1_CGV_133.9.100.5_20160219_212757"}] <serverMain>
+[0][213235] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][213235] Client 133.9.100.5 CONNECTED. <startServer>
+[0][213235] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213235] CALL: sock_accept. <startServer>
+[0][213235] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][213235] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][213235] Before Calling Func() parseRecvData
+[0][213235] After  Calling Func() parseRecvData
+[0][213235] LineNum(99) : Start function reqLockSem()
+[0][213235] After opening Semaphore
+[0][213235] 109 : semVal = 0
+[0][213235] Send to Client [4][1024][{"msg":"There isn't any Semaphore to lock","msgCd":"ERROR","key":""}] <serverMain>
+[0][213247] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][213247] Client 133.9.100.5 CONNECTED. <startServer>
+[0][213247] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213247] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][213247] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][213247] Before Calling Func() parseRecvData
+[0][213247] After  Calling Func() parseRecvData
+[0][213247] LineNum(99) : Start function reqLockSem()
+[0][213247] After opening Semaphore
+[0][213247] 109 : semVal = 1
+[0][213247] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_213247
+[0][213247] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_213247
+[0][213247] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"Test1_CGV_133.9.100.5_20160219_213247"}] <serverMain>
+[0][213247] CALL: sock_accept. <startServer>
+[0][213256] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][213256] CALL: sock_accept. <startServer>
+[0][213256] Client 133.9.100.5 CONNECTED. <startServer>
+[0][213256] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213256] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][213256] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][213256] Before Calling Func() parseRecvData
+[0][213256] After  Calling Func() parseRecvData
+[0][213256] LineNum(99) : Start function reqLockSem()
+[0][213256] After opening Semaphore
+[0][213256] 109 : semVal = 1
+[0][213256] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_213256
+[0][213256] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_213256
+[0][213256] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"Test1_CGV_133.9.100.5_20160219_213256"}] <serverMain>
+[0][213356] accept OK. cli_addr(133.9.100.5). <sock_accept:tcp_lib.c>
+[0][213356] CALL: sock_accept. <startServer>
+[0][213356] Client 133.9.100.5 CONNECTED. <startServer>
+[0][213356] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213356] OK: ret(100). repStr({			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}). <readSocket:tcp_lib.c>
+[0][213356] Recv from Client [4][100][{			"pgm":"Test1", 			"siteCd":"CGV", 			"ip":"133.9.100.5", 			"flag":"LOCK", 			"key":"DUMMY" 			}] <serverMain>
+[0][213356] Before Calling Func() parseRecvData
+[0][213356] After  Calling Func() parseRecvData
+[0][213356] LineNum(99) : Start function reqLockSem()
+[0][213356] After opening Semaphore
+[0][213356] 109 : semVal = 1
+[0][213356] Source(S/ServerMain.c), Line(168) : keyName = Test1_CGV_133.9.100.5_20160219_213356
+[0][213356] Source(S/ServerMain.c), Line(172) : fileName = ./keyfile/Test1_CGV_133.9.100.5_20160219_213356
+[0][213356] Send to Client [4][1024][{"msg":"Succeed Locking","msgCd":"OK","key":"Test1_CGV_133.9.100.5_20160219_213356"}] <serverMain>
