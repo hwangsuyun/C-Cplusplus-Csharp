@@ -1,0 +1,12 @@
+int File_Exist(char *f_name);
+int Chk_DigitStr(char *str);
+int ini_readstr_buff(char *ini_file, char *block, char *title, char *arr_buff, int record_sz, int max_cnt);
+int ini_readinteger(char *ini_file, char *block, char *title, int defval);
+int ini_readstring(char *ini_file, char *block, char *title, char *inival, char *defval);
+int get_title_str(char *ini_data, char *title, char *inival);
+int found_ini_block(FILE *fp, char *block);
+void l_trim_string(char *str_val);
+void r_trim_string(char *str_val);
+void trim_string(char *str_val);
+char *Get_Token_Ch(char *s_ptr, char *ret_str, char fs_ch);
+int FSstr_to_arr(char *in_str, char fs, char *arr_buff, int record_sz, int max_cnt);
