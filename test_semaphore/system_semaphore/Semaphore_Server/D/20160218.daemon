@@ -1,0 +1,689 @@
+[0][204405] DAEMON port(20060)
+[0][204405] DAEMON shared_status(0)
+[0][204405] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][204405] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][204405] CALL: sock_accept. <server_daemon>
+[0][204439] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][204439] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][204439] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][204439] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][204439] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][204439] OK:data->semKey(A)
+[0][204439] OK:numSemKey(65)
+[0][204439] START:init_ipc()
+[0][204439] init_ipc SEMAPHORE ID(4096010)
+[0][204439] OK:Semaphore Set Succ SEMID(4096010)
+[0][204439] END:init_ipc()
+[0][204439] setLockSemaphore(4096010)
+[0][204439] ret(0)
+[0][204439] CALL: sock_accept. <server_daemon>
+[0][204449] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][204627] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][204627] CALL: sock_accept. <server_daemon>
+[0][204627] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][204627] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][204627] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][204627] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][204627] OK:data->semKey(A)
+[0][204627] OK:numSemKey(65)
+[0][204627] START:init_ipc()
+[0][204627] init_ipc SEMAPHORE ID(4096010)
+[0][204627] OK:Semaphore Set Succ SEMID(4096010)
+[0][204627] END:init_ipc()
+[0][204627] setLockSemaphore(4096010)
+[0][204627] ret(0)
+[0][204637] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][210330] DAEMON port(20060)
+[0][210330] DAEMON shared_status(0)
+[0][210330] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][210330] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][210330] CALL: sock_accept. <server_daemon>
+[0][210338] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][210338] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][210338] CALL: sock_accept. <server_daemon>
+[0][210338] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][210338] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][210338] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][210338] OK:data->semKey(A)
+[0][210338] OK:numSemKey(65)
+[0][210338] START:init_ipc()
+[0][210338] init_ipc SEMAPHORE ID(4096010)
+[0][210338] OK:Semaphore Set Succ SEMID(4096010)
+[0][210338] END:init_ipc()
+[0][210338] setLockSemaphore(4096010)
+[0][210338] ret(0)
+[0][210338] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][210346] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][210346] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][210346] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][210346] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][210346] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][210346] OK:data->semKey(A)
+[0][210346] OK:numSemKey(65)
+[0][210346] START:init_ipc()
+[0][210346] init_ipc SEMAPHORE ID(4096010)
+[0][210346] OK:Semaphore Set Succ SEMID(4096010)
+[0][210346] END:init_ipc()
+[0][210346] CALL: sock_accept. <server_daemon>
+[0][210346] setLockSemaphore(4096010)
+[0][210346] ret(0)
+[0][210346] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][210916] DAEMON port(20060)
+[0][210916] DAEMON shared_status(0)
+[0][210916] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][210916] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][210916] CALL: sock_accept. <server_daemon>
+[0][210926] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][210926] CALL: sock_accept. <server_daemon>
+[0][210926] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][210926] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][210926] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][210926] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][210926] OK:data->semKey(A)
+[0][210926] OK:numSemKey(65)
+[0][210926] START:init_ipc()
+[0][210926] init_ipc SEMAPHORE ID(4096010)
+[0][210926] OK:Semaphore Set Succ SEMID(4096010)
+[0][210926] END:init_ipc()
+[0][210926] setLockSemaphore(4096010)
+[0][210926] ret(0)
+[0][210926] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][210933] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][210933] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][210933] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][210933] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][210933] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][210933] OK:data->semKey(A)
+[0][210933] OK:numSemKey(65)
+[0][210933] START:init_ipc()
+[0][210933] init_ipc SEMAPHORE ID(4096010)
+[0][210933] OK:Semaphore Set Succ SEMID(4096010)
+[0][210933] END:init_ipc()
+[0][210933] setLockSemaphore(4096010)
+[0][210933] ret(0)
+[0][210933] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][210933] CALL: sock_accept. <server_daemon>
+[0][211322] DAEMON port(20060)
+[0][211322] DAEMON shared_status(0)
+[0][211322] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][211322] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][211322] CALL: sock_accept. <server_daemon>
+[0][211328] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][211328] CALL: sock_accept. <server_daemon>
+[0][211328] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][211328] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211328] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][211328] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][211328] OK:data->semKey(A)
+[0][211328] OK:numSemKey(65)
+[0][211328] START:init_ipc()
+[0][211328] init_ipc SEMAPHORE ID(4096010)
+[0][211328] OK:Semaphore Set Succ SEMID(4096010)
+[0][211328] END:init_ipc()
+[0][211328] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][211334] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][211334] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][211334] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211334] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][211334] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][211334] OK:data->semKey(A)
+[0][211334] OK:numSemKey(65)
+[0][211334] START:init_ipc()
+[0][211334] init_ipc SEMAPHORE ID(4096010)
+[0][211334] OK:Semaphore Set Succ SEMID(4096010)
+[0][211334] END:init_ipc()
+[0][211334] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][211334] CALL: sock_accept. <server_daemon>
+[0][211536] DAEMON port(20060)
+[0][211536] DAEMON shared_status(0)
+[0][211536] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][211536] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][211536] CALL: sock_accept. <server_daemon>
+[0][211546] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][211546] CALL: sock_accept. <server_daemon>
+[0][211546] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][211546] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211546] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][211546] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][211546] OK:data->semKey(A)
+[0][211546] OK:numSemKey(65)
+[0][211546] START:init_ipc()
+[0][211546] init_ipc SEMAPHORE ID(4259850)
+[0][211546] OK:Semaphore Set Succ SEMID(4259850)
+[0][211546] END:init_ipc()
+[0][211546] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][211623] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][211623] CALL: sock_accept. <server_daemon>
+[0][211623] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][211623] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][211623] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][211623] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][211623] OK:data->semKey(A)
+[0][211623] OK:numSemKey(65)
+[0][211623] START:init_ipc()
+[0][211623] init_ipc SEMAPHORE ID(4259850)
+[0][211623] OK:Semaphore Set Succ SEMID(4259850)
+[0][211623] END:init_ipc()
+[0][211623] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][212134] DAEMON port(20060)
+[0][212134] DAEMON shared_status(0)
+[0][212134] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][212134] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][212134] CALL: sock_accept. <server_daemon>
+[0][212151] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][212151] CALL: sock_accept. <server_daemon>
+[0][212151] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][212151] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212151] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][212151] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][212151] OK:data->semKey(A)
+[0][212151] OK:numSemKey(65)
+[0][212151] START:init_ipc()
+[0][212151] init_ipc SEMAPHORE ID(4259850)
+[0][212151] OK:Semaphore Set Succ SEMID(4259850)
+[0][212151] END:init_ipc()
+[0][212151] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][212157] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][212157] CALL: sock_accept. <server_daemon>
+[0][212157] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][212157] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212157] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][212157] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][212157] OK:data->semKey(A)
+[0][212157] OK:numSemKey(65)
+[0][212157] START:init_ipc()
+[0][212157] init_ipc SEMAPHORE ID(4259850)
+[0][212157] OK:Semaphore Set Succ SEMID(4259850)
+[0][212157] END:init_ipc()
+[0][212157] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][212255] DAEMON port(20060)
+[0][212255] DAEMON shared_status(0)
+[0][212255] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][212255] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][212255] CALL: sock_accept. <server_daemon>
+[0][212304] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][212304] CALL: sock_accept. <server_daemon>
+[0][212304] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][212304] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212304] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][212304] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][212304] OK:data->semKey(A)
+[0][212304] OK:numSemKey(65)
+[0][212304] START:init_ipc()
+[0][212304] init_ipc SEMAPHORE ID(4292618)
+[0][212304] OK:Semaphore Set Succ SEMID(4292618)
+[0][212304] END:init_ipc()
+[0][212304] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][212305] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][212305] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][212305] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212305] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][212305] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][212305] OK:data->semKey(A)
+[0][212305] OK:numSemKey(65)
+[0][212305] START:init_ipc()
+[0][212305] init_ipc SEMAPHORE ID(4292618)
+[0][212305] OK:Semaphore Set Succ SEMID(4292618)
+[0][212305] END:init_ipc()
+[0][212305] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][212305] CALL: sock_accept. <server_daemon>
+[0][212321] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][212321] CALL: sock_accept. <server_daemon>
+[0][212321] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][212321] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][212321] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][212321] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][212321] OK:data->semKey(A)
+[0][212321] OK:numSemKey(65)
+[0][212321] START:init_ipc()
+[0][212321] init_ipc SEMAPHORE ID(4292618)
+[0][212321] OK:Semaphore Set Succ SEMID(4292618)
+[0][212321] END:init_ipc()
+[0][212321] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][213836] DAEMON port(20060)
+[0][213836] DAEMON shared_status(0)
+[0][213836] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][213836] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][213836] CALL: sock_accept. <server_daemon>
+[0][213923] START:init_ipc()
+[0][213923] init_ipc SEMAPHORE ID(4325386)
+[0][213923] OK:Semaphore Set Succ SEMID(4325386)
+[0][213923] END:init_ipc()
+[0][213923] DAEMON port(20060)
+[0][213923] DAEMON shared_status(0)
+[0][213923] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][213923] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][213923] CALL: sock_accept. <server_daemon>
+[0][213940] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213940] CALL: sock_accept. <server_daemon>
+[0][213940] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213940] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213940] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][213940] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][213940] OK:data->semKey(A)
+[0][213940] OK:numSemKey(65)
+[0][213940] setLockSemaphore(53)
+[0][213940] ERR:sem_lock Error
+[0][213940] ret(-1)
+[0][213940] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][215249] START:init_ipc()
+[0][215249] init_ipc SEMAPHORE ID(4358154)
+[0][215249] OK:Semaphore Set Succ SEMID(4358154)
+[0][215249] END:init_ipc()
+[0][215249] DAEMON port(20060)
+[0][215249] DAEMON shared_status(0)
+[0][215249] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][215249] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][215249] CALL: sock_accept. <server_daemon>
+[0][215258] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][215258] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][215258] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][215258] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][215258] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][215258] OK:data->semKey(A)
+[0][215258] OK:numSemKey(65)
+[0][215258] setLockSemaphore(53)
+[0][215258] ERR:sem_lock Error
+[0][215258] ret(-1)
+[0][215258] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][215258] CALL: sock_accept. <server_daemon>
+[0][215827] START:init_ipc()
+[0][215827] init_ipc SEMAPHORE ID(4390922)
+[0][215827] OK:Semaphore Set Succ SEMID(4390922)
+[0][215827] END:init_ipc()
+[0][215827] DAEMON port(20060)
+[0][215827] DAEMON shared_status(0)
+[0][215827] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][215827] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][215827] CALL: sock_accept. <server_daemon>
+[0][215836] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][215836] CALL: sock_accept. <server_daemon>
+[0][215836] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][215836] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][215836] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][215836] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][215836] OK:data->semKey(A)
+[0][215836] OK:numSemKey(65)
+[0][215836] setLockSemaphore(4390922)
+[0][215836] ret(0)
+[0][215836] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][215842] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][215842] CALL: sock_accept. <server_daemon>
+[0][215842] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][215842] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][215842] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][215842] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][215842] OK:data->semKey(A)
+[0][215842] OK:numSemKey(65)
+[0][215842] setLockSemaphore(4390922)
+[0][215842] ERR:sem_lock Error
+[0][215842] ret(-1)
+[0][215842] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][220110] DAEMON port(20060)
+[0][220110] DAEMON shared_status(0)
+[0][220110] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][220110] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][220110] CALL: sock_accept. <server_daemon>
+[0][220120] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][220120] CALL: sock_accept. <server_daemon>
+[0][220120] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][220120] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][220120] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][220120] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][220120] OK:data->semKey(A)
+[0][220120] OK:numSemKey(65)
+[0][220120] setLockSemaphore(53)
+[0][220120] ERR:sem_lock Error
+[0][220120] ret(-1)
+[0][220120] START:init_ipc()
+[0][220120] init_ipc SEMAPHORE ID(4423690)
+[0][220120] OK:Semaphore Set Succ SEMID(4423690)
+[0][220120] END:init_ipc()
+[0][220120] setLockSemaphore(4423690)
+[0][220120] ret(0)
+[0][220120] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][220134] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][220134] CALL: sock_accept. <server_daemon>
+[0][220134] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][220134] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][220134] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][220134] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][220134] OK:data->semKey(A)
+[0][220134] OK:numSemKey(65)
+[0][220134] setLockSemaphore(53)
+[0][220134] ERR:sem_lock Error
+[0][220134] ret(-1)
+[0][220134] START:init_ipc()
+[0][220134] init_ipc SEMAPHORE ID(4423690)
+[0][220134] OK:Semaphore Set Succ SEMID(4423690)
+[0][220134] END:init_ipc()
+[0][220134] setLockSemaphore(4423690)
+[0][220134] ret(0)
+[0][220134] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][220327] DAEMON port(20060)
+[0][220327] DAEMON shared_status(0)
+[0][220327] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][220327] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][220327] CALL: sock_accept. <server_daemon>
+[0][220336] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][220336] CALL: sock_accept. <server_daemon>
+[0][220336] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][220336] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][220336] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][220336] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][220336] OK:data->semKey(A)
+[0][220336] OK:numSemKey(65)
+[0][220336] setLockSemaphore(53)
+[0][220336] ERR:sem_lock Error
+[0][220336] ret(-1)
+[0][220336] START:init_ipc()
+[0][220336] ERR:init_ipc semget Error
+[0][220336] Send to Client [4][1024][[ERROR] don't create key] <server_main>
+[0][220511] DAEMON port(20060)
+[0][220511] DAEMON shared_status(0)
+[0][220511] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][220511] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][220511] CALL: sock_accept. <server_daemon>
+[0][220516] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][220516] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][220516] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][220516] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][220516] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][220516] OK:data->semKey(A)
+[0][220516] OK:numSemKey(65)
+[0][220516] CALL: sock_accept. <server_daemon>
+[0][220516] setLockSemaphore(53)
+[0][220516] ERR:sem_lock Error
+[0][220516] ret(-1)
+[0][220516] START:init_ipc()
+[0][220516] init_ipc SEMAPHORE ID(4456458)
+[0][220516] OK:Semaphore Set Succ SEMID(4456458)
+[0][220516] END:init_ipc()
+[0][220516] setLockSemaphore(4456458)
+[0][220516] ret(0)
+[0][220516] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][220532] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][220532] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][220532] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][220532] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][220532] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][220532] OK:data->semKey(A)
+[0][220532] OK:numSemKey(65)
+[0][220532] setLockSemaphore(53)
+[0][220532] ERR:sem_lock Error
+[0][220532] ret(-1)
+[0][220532] START:init_ipc()
+[0][220532] ERR:init_ipc semget Error
+[0][220532] Send to Client [4][1024][[ERROR] don't create key] <server_main>
+[0][220532] CALL: sock_accept. <server_daemon>
+[0][224410] DAEMON port(20060)
+[0][224410] DAEMON shared_status(0)
+[0][224410] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][224410] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][224410] CALL: sock_accept. <server_daemon>
+[0][224416] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][224416] CALL: sock_accept. <server_daemon>
+[0][224416] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][224416] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][224416] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][224416] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][224416] OK:data->semKey(A)
+[0][224416] OK:numSemKey(65)
+[0][224416] START:init_ipc()
+[0][224416] init_ipc SEMAPHORE ID(4489226)
+[0][224416] OK:Semaphore Set Succ SEMID(4489226)
+[0][224416] END:init_ipc()
+[0][224416] setLockSemaphore(4489226)
+[0][224416] ret(0)
+[0][224416] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][224440] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][224440] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][224440] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][224440] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][224440] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][224440] OK:data->semKey(A)
+[0][224440] OK:numSemKey(65)
+[0][224440] START:init_ipc()
+[0][224440] init_ipc SEMAPHORE ID(4489226)
+[0][224440] OK:Semaphore Set Succ SEMID(4489226)
+[0][224440] END:init_ipc()
+[0][224440] setLockSemaphore(4489226)
+[0][224440] ret(0)
+[0][224440] CALL: sock_accept. <server_daemon>
+[0][224440] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][225154] DAEMON port(20060)
+[0][225154] DAEMON shared_status(0)
+[0][225154] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][225154] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][225154] CALL: sock_accept. <server_daemon>
+[0][225159] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][225159] CALL: sock_accept. <server_daemon>
+[0][225159] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][225159] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][225159] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][225159] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][225159] OK:data->semKey(A)
+[0][225159] OK:numSemKey(65)
+[0][225159] START:init_ipc()
+[0][225159] IPC_CREAT()
+[0][225159] setLockSemaphore(4521994)
+[0][225159] ERR:sem_lock Error
+[0][225159] ret(-1)
+[0][225159] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][225559] DAEMON port(20060)
+[0][225559] DAEMON shared_status(0)
+[0][225559] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][225559] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][225559] CALL: sock_accept. <server_daemon>
+[0][225607] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][225607] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][225607] CALL: sock_accept. <server_daemon>
+[0][225607] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][225607] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][225607] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][225607] OK:data->semKey(A)
+[0][225607] OK:numSemKey(65)
+[0][225607] START:init_ipc()
+[0][225607] IPC_CREAT()
+[0][225607] setLockSemaphore(4554762)
+[0][225607] ERR:sem_lock Error
+[0][225607] ret(-1)
+[0][225607] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][225753] DAEMON port(20060)
+[0][225753] DAEMON shared_status(0)
+[0][225753] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][225753] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][225753] CALL: sock_accept. <server_daemon>
+[0][225759] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][225759] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][225759] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][225759] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][225759] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][225759] OK:data->semKey(A)
+[0][225759] OK:numSemKey(65)
+[0][225759] CALL: sock_accept. <server_daemon>
+[0][225759] START:init_ipc()
+[0][225759] init_ipc SEMAPHORE ID(4587530)
+[0][225759] OK:Semaphore Set Succ SEMID(4587530)
+[0][225759] END:init_ipc()
+[0][225759] setLockSemaphore(4587530)
+[0][225759] ret(0)
+[0][225759] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][225838] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][225838] CALL: sock_accept. <server_daemon>
+[0][225838] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][225838] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][225838] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][225838] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][225838] OK:data->semKey(A)
+[0][225838] OK:numSemKey(65)
+[0][225838] START:init_ipc()
+[0][225838] IPC_CREAT()
+[0][225838] setLockSemaphore(4587530)
+[0][225838] ret(0)
+[0][225838] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][230049] DAEMON port(20060)
+[0][230049] DAEMON shared_status(0)
+[0][230049] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][230049] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][230049] CALL: sock_accept. <server_daemon>
+[0][230057] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][230057] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][230057] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][230057] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][230057] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][230057] CALL: sock_accept. <server_daemon>
+[0][230057] OK:data->semKey(A)
+[0][230057] OK:numSemKey(65)
+[0][230057] START:init_ipc()
+[0][230057] init_ipc SEMAPHORE ID(4620298)
+[0][230057] OK:Semaphore Set Succ SEMID(4620298)
+[0][230057] END:init_ipc()
+[0][230057] setLockSemaphore(4620298)
+[0][230057] ret(0)
+[0][230057] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][230104] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][230104] CALL: sock_accept. <server_daemon>
+[0][230104] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][230104] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][230104] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][230104] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][230104] OK:data->semKey(A)
+[0][230104] OK:numSemKey(65)
+[0][230104] START:init_ipc()
+[0][230104] IPC_CREAT()
+[0][230104] setLockSemaphore(4620298)
+[0][230104] ERR:sem_lock Error
+[0][230104] ret(-1)
+[0][230104] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][232040] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232040] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232040] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232040] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232040] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][232040] OK:data->semKey(A)
+[0][232040] OK:numSemKey(65)
+[0][232040] START:init_ipc()
+[0][232040] IPC_CREAT()
+[0][232040] setLockSemaphore(4620298)
+[0][232040] ERR:sem_lock Error
+[0][232040] ret(-1)
+[0][232040] CALL: sock_accept. <server_daemon>
+[0][232040] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][232117] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232117] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232117] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232117] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232117] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }] <server_main>
+[0][232117] OK:data->semKey(A)
+[0][232117] OK:numSemKey(65)
+[0][232117] START:init_ipc()
+[0][232117] IPC_CREAT()
+[0][232117] setUnLockSemaphore(4620298)
+[0][232117] Send to Client [4][1024][[OK] succeed UnLocking] <server_main>
+[0][232117] CALL: sock_accept. <server_daemon>
+[0][232140] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232140] CALL: sock_accept. <server_daemon>
+[0][232140] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232140] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232140] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232140] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }] <server_main>
+[0][232140] OK:data->semKey(A)
+[0][232140] OK:numSemKey(65)
+[0][232140] START:init_ipc()
+[0][232140] IPC_CREAT()
+[0][232140] setUnLockSemaphore(4620298)
+[0][232140] Send to Client [4][1024][[OK] succeed UnLocking] <server_main>
+[0][232207] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232207] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232207] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232207] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232207] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][232207] OK:data->semKey(A)
+[0][232207] OK:numSemKey(65)
+[0][232207] START:init_ipc()
+[0][232207] IPC_CREAT()
+[0][232207] setLockSemaphore(4620298)
+[0][232207] ret(0)
+[0][232207] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][232207] CALL: sock_accept. <server_daemon>
+[0][232209] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232209] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232209] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232209] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232209] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][232209] OK:data->semKey(A)
+[0][232209] OK:numSemKey(65)
+[0][232209] START:init_ipc()
+[0][232209] IPC_CREAT()
+[0][232209] setLockSemaphore(4620298)
+[0][232209] ret(0)
+[0][232209] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][232209] CALL: sock_accept. <server_daemon>
+[0][232231] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232231] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232231] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232231] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232231] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][232231] OK:data->semKey(A)
+[0][232231] OK:numSemKey(65)
+[0][232231] START:init_ipc()
+[0][232231] IPC_CREAT()
+[0][232231] setLockSemaphore(4620298)
+[0][232231] ERR:sem_lock Error
+[0][232231] CALL: sock_accept. <server_daemon>
+[0][232231] ret(-1)
+[0][232231] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][232233] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232233] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232233] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232233] CALL: sock_accept. <server_daemon>
+[0][232233] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232233] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][232233] OK:data->semKey(A)
+[0][232233] OK:numSemKey(65)
+[0][232233] START:init_ipc()
+[0][232233] IPC_CREAT()
+[0][232233] setLockSemaphore(4620298)
+[0][232233] ERR:sem_lock Error
+[0][232233] ret(-1)
+[0][232233] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][232257] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232257] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232257] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232257] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232257] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }] <server_main>
+[0][232257] OK:data->semKey(A)
+[0][232257] OK:numSemKey(65)
+[0][232257] START:init_ipc()
+[0][232257] IPC_CREAT()
+[0][232257] setUnLockSemaphore(4620298)
+[0][232257] Send to Client [4][1024][[OK] succeed UnLocking] <server_main>
+[0][232257] CALL: sock_accept. <server_daemon>
+[0][232308] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232308] CALL: sock_accept. <server_daemon>
+[0][232308] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232308] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232308] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232308] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][232308] OK:data->semKey(A)
+[0][232308] OK:numSemKey(65)
+[0][232308] START:init_ipc()
+[0][232308] IPC_CREAT()
+[0][232308] setLockSemaphore(4620298)
+[0][232308] ret(0)
+[0][232308] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][232311] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][232311] CALL: sock_accept. <server_daemon>
+[0][232311] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][232311] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][232311] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][232311] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][232311] OK:data->semKey(A)
+[0][232311] OK:numSemKey(65)
+[0][232311] START:init_ipc()
+[0][232311] IPC_CREAT()
+[0][232311] setLockSemaphore(4620298)
+[0][232311] ERR:sem_lock Error
+[0][232311] ret(-1)
+[0][232311] Send to Client [4][1024][[ERROR] fail Locking] <server_main>

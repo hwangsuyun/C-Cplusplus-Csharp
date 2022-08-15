@@ -1,0 +1,115 @@
+[0][213047] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213246] DAEMON port(20060)
+[0][213246] DAEMON shared_status(0)
+[0][213246] START: port(20060). <Open_Server_Socket:tcp_lib.c>
+[0][213246] OK: Open_Server_Socket. port(20060). <server_daemon>
+[0][213246] CALL: sock_accept. <server_daemon>
+[0][213250] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213250] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213250] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213250] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][213250] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][213250] OK:data->semKey(A)
+[0][213250] OK:numSemKey(65)
+[0][213250] START:init_ipc()
+[0][213250] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213250] semget option is IPC_CREAT | 0666
+[0][213250] setLockSemaphore(4653066)
+[0][213250] ERR:sem_lock Error
+[0][213250] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][213250] CALL: sock_accept. <server_daemon>
+[0][213324] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213324] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213324] CALL: sock_accept. <server_daemon>
+[0][213324] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213324] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][213324] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }] <server_main>
+[0][213324] OK:data->semKey(A)
+[0][213324] OK:numSemKey(65)
+[0][213324] START:init_ipc()
+[0][213324] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213324] semget option is IPC_CREAT | 0666
+[0][213324] setUnLockSemaphore(4653066)
+[0][213324] Send to Client [4][1024][[OK] succeed UnLocking] <server_main>
+[0][213419] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213419] CALL: sock_accept. <server_daemon>
+[0][213419] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213419] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213419] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "B"  		          }). <readSocket:tcp_lib.c>
+[0][213419] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "B"  		          }] <server_main>
+[0][213419] OK:data->semKey(B)
+[0][213419] OK:numSemKey(66)
+[0][213419] START:init_ipc()
+[0][213419] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213419] init_ipc SEMAPHORE ID(4685837)
+[0][213419] OK:Semaphore Set Succ SEMID(4685837)
+[0][213419] END:init_ipc()
+[0][213419] setLockSemaphore(4685837)
+[0][213419] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][213447] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213447] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213447] CALL: sock_accept. <server_daemon>
+[0][213447] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213447] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][213447] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][213447] OK:data->semKey(A)
+[0][213447] OK:numSemKey(65)
+[0][213447] START:init_ipc()
+[0][213447] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213447] semget option is IPC_CREAT | 0666
+[0][213447] setLockSemaphore(4653066)
+[0][213447] Send to Client [4][1024][[OK] succeed Locking] <server_main>
+[0][213503] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213503] CALL: sock_accept. <server_daemon>
+[0][213503] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213503] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213503] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][213503] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "A"  		          }] <server_main>
+[0][213503] OK:data->semKey(A)
+[0][213503] OK:numSemKey(65)
+[0][213503] START:init_ipc()
+[0][213503] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213503] semget option is IPC_CREAT | 0666
+[0][213503] setLockSemaphore(4653066)
+[0][213503] ERR:sem_lock Error
+[0][213503] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][213506] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213506] CALL: sock_accept. <server_daemon>
+[0][213506] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213506] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213506] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "B"  		          }). <readSocket:tcp_lib.c>
+[0][213506] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "1", 					"semKey"  : "B"  		          }] <server_main>
+[0][213506] OK:data->semKey(B)
+[0][213506] OK:numSemKey(66)
+[0][213506] START:init_ipc()
+[0][213506] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213506] semget option is IPC_CREAT | 0666
+[0][213506] setLockSemaphore(4685837)
+[0][213506] ERR:sem_lock Error
+[0][213506] Send to Client [4][1024][[ERROR] fail Locking] <server_main>
+[0][213544] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213544] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213544] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213544] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }). <readSocket:tcp_lib.c>
+[0][213544] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "A"  		          }] <server_main>
+[0][213544] OK:data->semKey(A)
+[0][213544] OK:numSemKey(65)
+[0][213544] START:init_ipc()
+[0][213544] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213544] semget option is IPC_CREAT | 0666
+[0][213544] setUnLockSemaphore(4653066)
+[0][213544] Send to Client [4][1024][[OK] succeed UnLocking] <server_main>
+[0][213544] CALL: sock_accept. <server_daemon>
+[0][213547] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][213547] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][213547] CALL: sock_accept. <server_daemon>
+[0][213547] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][213547] OK: ret(162). repStr({                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "B"  		          }). <readSocket:tcp_lib.c>
+[0][213547] Recv from Client [4][162][{                       					"pgm"     : "client", 					"site_cd" : "HSY", 					"ip"      : "127.0.0.1", 					"flag"    : "0", 					"semKey"  : "B"  		          }] <server_main>
+[0][213547] OK:data->semKey(B)
+[0][213547] OK:numSemKey(66)
+[0][213547] START:init_ipc()
+[0][213547] semget option is IPC_EXCL | IPC_CREAT | 0666
+[0][213547] semget option is IPC_CREAT | 0666
+[0][213547] setUnLockSemaphore(4685837)
+[0][213547] Send to Client [4][1024][[OK] succeed UnLocking] <server_main>
