@@ -1,0 +1,11 @@
+void	NulltoSpace(char	*buf, int size);
+void Rm_Mid_Space(char *str_buff, int size);
+void	LPAD( char *src );
+void	RPAD( char *src );
+void	PAD( char *src );
+void	Rm_CRLF( char *src );
+int		Get_Dummy_CH( char	*buf, char	data[][100], char	ch );
+int		Get_Dummy_CH_New( char	*buf, char	*data, int len, char	ch );
+int     Get_Serial(long *s_no);
+int hex2str(unsigned char *r_buff, char *s_buff, int s_len);
+int buff_check(char *dest, char *src);
