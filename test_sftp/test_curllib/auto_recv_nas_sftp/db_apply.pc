@@ -1,0 +1,66 @@
+#include <string.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+
+EXEC SQL INCLUDE SQLCA;
+EXEC SQL INCLUDE ORACA;
+
+#include "common.h"
+
+int TRCV_INFO_insert(char *site_cd, char *file_fg, char *rcv_file_nm)
+{
+      int i;
+
+	  char orgCd[11];
+	  memset(orgCd, 0x00, sizeof(orgCd));
+
+	  // Added By Chang-Sub Kwak
+	  if (strcmp(file_fg, "3") == 0) {
+		  strncpy(orgCd, rcv_file_nm, 10);		  
+	  } else {
+		  strcpy(orgCd, site_cd);
+	  }
+
+      for( i=0; i<TRY_CNT; i++ ) {
+              EXEC SQL
+                      INSERT
+                        INTO TRCV_INFO
+                             ( SITE_CD,
+                               RCV_DATE,
+                               RCV_CNT,
+                               RCV_TIME,
+                               FILE_FG,
+                               ORG_CD,
+                               REQ_DATE,
+                               RCV_FILE_NM,
+			       STATUS
+                             )
+                      SELECT TRIM( :site_cd ),
+			     TO_CHAR( SYSDATE, 'YYYYMMDD' ) RCV_DATE,                             
+                             NVL( MAX( RCV_CNT ), 0 ) + 1 RCV_CNT,
+                             TO_CHAR( SYSDATE, 'HH24MISS' ),
+			     TRIM( :file_fg ) FILE_FG,
+			     TRIM( :orgCd ) ORG_CD,
+		             TO_CHAR( SYSDATE, 'YYYYMMDD' ) REQ_DATE, 
+		             TRIM( :rcv_file_nm ) RCV_FILE_NM,
+			     'W'
+                        FROM TRCV_INFO
+                       WHERE SITE_CD = TRIM( :site_cd )
+		 	 AND RCV_DATE = TO_CHAR( SYSDATE, 'YYYYMMDD' );
+              if( SQLCODE != 0 ) {
+                      LOG( 9, _ERROR_, "TRCV_INFO Insert. TRY_CNT(%d/%d)", i + 1, TRY_CNT );
+                      OracleError( sqlca );
+                      sleep( TRY_TIME );
+                      continue;
+              }
+              break;
+      }
+      if( i >= TRY_CNT ) {
+              return -1;
+      }
+
+      return 0;
+}
+
