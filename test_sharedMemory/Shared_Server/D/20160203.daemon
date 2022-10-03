@@ -1,0 +1,103 @@
+[0][095127] START:init_ipc()
+[0][095127] ERR:init_ipc key Error(0x890088a4)
+[0][095127] ERR: ipc initialize error(-1) <main>
+[0][095136] START:init_ipc()
+[0][095136] ERR:init_ipc key Error(0x890088a4)
+[0][095136] ERR: ipc initialize error(-1) <main>
+[0][095146] START:init_ipc()
+[0][095146] ERR:init_ipc key Error(0x890088a4)
+[0][095146] ERR: ipc initialize error(-1) <main>
+[0][095211] START:init_ipc()
+[0][095211] ERR:init_ipc key Error(0x890088a4)
+[0][095211] ERR: ipc initialize error(-1) <main>
+[0][095248] START:init_ipc()
+[0][095248] init_ipc SEMAPHORE ID (2621450)
+[0][095248] OK:Semaphoer Set Succ SEMID(2621450)
+[0][095248] OK:get_shm_id ipc_key = 0x410088a4
+[0][095248] OK:get_shm_id shmid(7962646)
+[0][095248] END:init_ipc()
+[0][095248] DAEMON port(20040)
+[0][095248] DAEMON shared_status(0)
+[0][095248] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][095248] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][095248] CALL: sock_accept. <server_daemon>
+[0][130241] START:init_ipc()
+[0][130241] init_ipc SEMAPHORE ID (0)(2654218)
+[0][130241] OK:Semaphoer Set Succ SEMID(0)(2654218)
+[0][130241] OK:get_shm_id ipc_key(0) = 0x4b0088a4
+[0][130241] OK:get_shm_id shmid(0)(7995414)
+[0][130241] init_ipc SEMAPHORE ID (1)(2686987)
+[0][130241] OK:Semaphoer Set Succ SEMID(1)(2686987)
+[0][130241] OK:get_shm_id ipc_key(1) = 0x4c0088a4
+[0][130241] OK:get_shm_id shmid(1)(8028183)
+[0][130241] init_ipc SEMAPHORE ID (2)(2719756)
+[0][130241] OK:Semaphoer Set Succ SEMID(2)(2719756)
+[0][130241] OK:get_shm_id ipc_key(2) = 0x4d0088a4
+[0][130241] OK:get_shm_id shmid(2)(8060952)
+[0][130241] init_ipc SEMAPHORE ID (3)(2752525)
+[0][130241] OK:Semaphoer Set Succ SEMID(3)(2752525)
+[0][130241] OK:get_shm_id ipc_key(3) = 0x4e0088a4
+[0][130241] OK:get_shm_id shmid(3)(8093721)
+[0][130241] init_ipc SEMAPHORE ID (4)(2785294)
+[0][130241] OK:Semaphoer Set Succ SEMID(4)(2785294)
+[0][130241] OK:get_shm_id ipc_key(4) = 0x4f0088a4
+[0][130241] OK:get_shm_id shmid(4)(8126490)
+[0][130241] init_ipc SEMAPHORE ID (5)(2818063)
+[0][130241] OK:Semaphoer Set Succ SEMID(5)(2818063)
+[0][130241] OK:get_shm_id ipc_key(5) = 0x500088a4
+[0][130241] OK:get_shm_id shmid(5)(8159259)
+[0][130241] init_ipc SEMAPHORE ID (6)(2850832)
+[0][130241] OK:Semaphoer Set Succ SEMID(6)(2850832)
+[0][130241] OK:get_shm_id ipc_key(6) = 0x510088a4
+[0][130241] OK:get_shm_id shmid(6)(8192028)
+[0][130241] init_ipc SEMAPHORE ID (7)(2883601)
+[0][130241] OK:Semaphoer Set Succ SEMID(7)(2883601)
+[0][130241] OK:get_shm_id ipc_key(7) = 0x520088a4
+[0][130241] OK:get_shm_id shmid(7)(8224797)
+[0][130241] END:init_ipc()
+[0][130241] DAEMON port(20040)
+[0][130241] DAEMON shared_status(0)
+[0][130241] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][130241] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][130241] CALL: sock_accept. <server_daemon>
+[0][131159] START:init_ipc()
+[0][131159] sem_key(8), shm_key(8)
+[0][173923] START:init_ipc()
+[0][173923] init_ipc SEMAPHORE ID (0)(2916362)
+[0][173923] OK:Semaphoer Set Succ SEMID(0)(2916362)
+[0][173923] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][173923] OK:get_shm_id shmid(0)(8257558)
+[0][174225] START:init_ipc()
+[0][174225] init_ipc SEMAPHORE ID (0)(2916362)
+[0][174225] OK:Semaphoer Set Succ SEMID(0)(2916362)
+[0][174225] OK:get_shm_id ipc_key = 0x4b0088a4
+[0][174225] OK:get_shm_id shmid(0)(8257558)
+[0][175147] START:init_ipc()
+[0][175147] init_ipc SEMAPHORE ID (0)(2949130)
+[0][175147] OK:Semaphoer Set Succ SEMID(0)(2949130)
+[0][175147] OK:get_shm_id ipc_key = 0x4b0088a4
+[0][175147] OK:get_shm_id shmid(0)(8290326)
+[0][182640] START:init_ipc()
+[0][182640] init_ipc SEMAPHORE ID (0)(2981898)
+[0][182640] OK:Semaphoer Set Succ SEMID(0)(2981898)
+[0][182640] OK:get_shm_id ipc_key = 0x4b0088a4
+[0][182640] OK:get_shm_id shmid(0)(8323094)
+[0][183315] START:init_ipc()
+[0][183315] init_ipc SEMAPHORE ID (0)(3014666)
+[0][183315] OK:Semaphoer Set Succ SEMID(0)(3014666)
+[0][183315] OK:get_shm_id ipc_key = 0x4b0088a4
+[0][183315] OK:get_shm_id shmid(0)(8355862)
+[0][183315] 1
+[0][183656] START:init_ipc()
+[0][183656] init_ipc SEMAPHORE ID (0)(3047434)
+[0][183656] OK:Semaphoer Set Succ SEMID(0)(3047434)
+[0][183656] OK:get_shm_id ipc_key = 0x4b0088a4
+[0][183656] OK:get_shm_id shmid(0)(8388630)
+[0][183656] 1
+[0][183656] 2
+[0][183656] END:init_ipc()
+[0][183656] DAEMON port(20040)
+[0][183656] DAEMON shared_status(0)
+[0][183656] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][183656] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][183656] CALL: sock_accept. <server_daemon>

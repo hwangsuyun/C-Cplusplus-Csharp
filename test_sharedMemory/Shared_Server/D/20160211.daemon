@@ -1,0 +1,382 @@
+[0][091829] START:init_ipc()
+[0][091829] init_ipc SEMAPHORE ID (0)(3768330)
+[0][091829] OK:Semaphoer Set Succ SEMID(0)(3768330)
+[0][091829] OK:get_shm_id ipc_key = 0x4b0088a4
+[0][091829] OK:get_shm_id shmid(0)(9109526)
+[0][091829] init_ipc SEMAPHORE ID (1)(3801099)
+[0][091829] OK:Semaphoer Set Succ SEMID(1)(3801099)
+[0][091829] OK:get_shm_id ipc_key = 0x4c0088a4
+[0][091829] OK:get_shm_id shmid(1)(9142295)
+[0][091829] init_ipc SEMAPHORE ID (2)(3833868)
+[0][091829] OK:Semaphoer Set Succ SEMID(2)(3833868)
+[0][091829] OK:get_shm_id ipc_key = 0x4d0088a4
+[0][091829] OK:get_shm_id shmid(2)(9175064)
+[0][091829] init_ipc SEMAPHORE ID (3)(3866637)
+[0][091829] OK:Semaphoer Set Succ SEMID(3)(3866637)
+[0][091829] OK:get_shm_id ipc_key = 0x4e0088a4
+[0][091829] OK:get_shm_id shmid(3)(9207833)
+[0][091829] init_ipc SEMAPHORE ID (4)(3899406)
+[0][091829] OK:Semaphoer Set Succ SEMID(4)(3899406)
+[0][091829] OK:get_shm_id ipc_key = 0x4f0088a4
+[0][091829] OK:get_shm_id shmid(4)(9240602)
+[0][091829] init_ipc SEMAPHORE ID (5)(3932175)
+[0][091829] OK:Semaphoer Set Succ SEMID(5)(3932175)
+[0][091829] OK:get_shm_id ipc_key = 0x500088a4
+[0][091829] OK:get_shm_id shmid(5)(9273371)
+[0][091829] init_ipc SEMAPHORE ID (6)(3964944)
+[0][091829] OK:Semaphoer Set Succ SEMID(6)(3964944)
+[0][091829] OK:get_shm_id ipc_key = 0x510088a4
+[0][091829] OK:get_shm_id shmid(6)(9306140)
+[0][091829] init_ipc SEMAPHORE ID (7)(3997713)
+[0][091829] OK:Semaphoer Set Succ SEMID(7)(3997713)
+[0][091829] OK:get_shm_id ipc_key = 0x520088a4
+[0][091829] OK:get_shm_id shmid(7)(9338909)
+[0][091829] init_ipc SEMAPHORE ID (8)(4030482)
+[0][091829] OK:Semaphoer Set Succ SEMID(8)(4030482)
+[0][091829] OK:get_shm_id ipc_key = 0x530088a4
+[0][091829] OK:get_shm_id shmid(8)(9371678)
+[0][091829] init_ipc SEMAPHORE ID (9)(4063251)
+[0][091829] OK:Semaphoer Set Succ SEMID(9)(4063251)
+[0][091829] OK:get_shm_id ipc_key = 0x540088a4
+[0][091829] OK:get_shm_id shmid(9)(9404447)
+[0][091829] END:init_ipc()
+[0][091829] DAEMON port(20040)
+[0][091829] DAEMON shared_status(0)
+[0][091829] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][091829] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][091829] CALL: sock_accept. <server_daemon>
+[0][144823] START:init_ipc()
+[0][144823] init_ipc SEMAPHORE ID (0)(3768330)
+[0][144823] OK:Semaphoer Set Succ SEMID(0)(3768330)
+[0][144823] OK:get_shm_id ipc_key = 0x4b0088a4
+[0][144823] OK:get_shm_id shmid(0)(9109526)
+[0][144823] init_ipc SEMAPHORE ID (1)(3801099)
+[0][144823] OK:Semaphoer Set Succ SEMID(1)(3801099)
+[0][144823] OK:get_shm_id ipc_key = 0x4c0088a4
+[0][144823] OK:get_shm_id shmid(1)(9142295)
+[0][144823] init_ipc SEMAPHORE ID (2)(3833868)
+[0][144823] OK:Semaphoer Set Succ SEMID(2)(3833868)
+[0][144823] OK:get_shm_id ipc_key = 0x4d0088a4
+[0][144823] OK:get_shm_id shmid(2)(9175064)
+[0][144823] init_ipc SEMAPHORE ID (3)(3866637)
+[0][144823] OK:Semaphoer Set Succ SEMID(3)(3866637)
+[0][144823] OK:get_shm_id ipc_key = 0x4e0088a4
+[0][144823] OK:get_shm_id shmid(3)(9207833)
+[0][144823] init_ipc SEMAPHORE ID (4)(3899406)
+[0][144823] OK:Semaphoer Set Succ SEMID(4)(3899406)
+[0][144823] OK:get_shm_id ipc_key = 0x4f0088a4
+[0][144823] OK:get_shm_id shmid(4)(9240602)
+[0][144823] init_ipc SEMAPHORE ID (5)(3932175)
+[0][144823] OK:Semaphoer Set Succ SEMID(5)(3932175)
+[0][144823] OK:get_shm_id ipc_key = 0x500088a4
+[0][144823] OK:get_shm_id shmid(5)(9273371)
+[0][144823] init_ipc SEMAPHORE ID (6)(3964944)
+[0][144823] OK:Semaphoer Set Succ SEMID(6)(3964944)
+[0][144823] OK:get_shm_id ipc_key = 0x510088a4
+[0][144823] OK:get_shm_id shmid(6)(9306140)
+[0][144823] init_ipc SEMAPHORE ID (7)(3997713)
+[0][144823] OK:Semaphoer Set Succ SEMID(7)(3997713)
+[0][144823] OK:get_shm_id ipc_key = 0x520088a4
+[0][144823] OK:get_shm_id shmid(7)(9338909)
+[0][144823] init_ipc SEMAPHORE ID (8)(4030482)
+[0][144823] OK:Semaphoer Set Succ SEMID(8)(4030482)
+[0][144823] OK:get_shm_id ipc_key = 0x530088a4
+[0][144823] OK:get_shm_id shmid(8)(9371678)
+[0][144823] init_ipc SEMAPHORE ID (9)(4063251)
+[0][144823] OK:Semaphoer Set Succ SEMID(9)(4063251)
+[0][144823] OK:get_shm_id ipc_key = 0x540088a4
+[0][144823] OK:get_shm_id shmid(9)(9404447)
+[0][144823] END:init_ipc()
+[0][144823] DAEMON port(20040)
+[0][144823] DAEMON shared_status(0)
+[0][144823] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][144823] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][144823] CALL: sock_accept. <server_daemon>
+[0][145014] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][145014] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][145014] CALL: sock_accept. <server_daemon>
+[0][145014] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][145014] OK: ret(0). repStr(). <readSocket:tcp_lib.c>
+[0][145014] ERR: Client Closed .. <server_main>
+[0][145429] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][145429] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][145429] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][145429] OK: ret(0). repStr(). <readSocket:tcp_lib.c>
+[0][145429] ERR: Client Closed .. <server_main>
+[0][145429] CALL: sock_accept. <server_daemon>
+[0][145551] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][145551] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][145551] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][145551] OK: ret(0). repStr(). <readSocket:tcp_lib.c>
+[0][145551] ERR: Client Closed .. <server_main>
+[0][145551] CALL: sock_accept. <server_daemon>
+[0][152709] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][152709] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][152709] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][152709] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][152709] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][152709] OK:data->semKey(A), data->shmKey(K)
+[0][152709] OK:numSemKey(65), numShmKey(75)
+[0][152709] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][152709] OK:index(0)
+[0][152709] ipc.c-133-getShmSegData-getShmSegData
+[0][152709] ipc.c-168-getShmSeg-getShmSeg
+[0][152709] tIndex->shmChk()
+[0][152709] tIndex->shmChk(0)(
+[0][152709] tIndex->shmChk(1)(
+[0][152709] tIndex->shmChk(2)(
+[0][152709] tIndex->shmChk(3)(
+[0][152709] tIndex->shmChk(4)(
+[0][152709] tIndex->shmChk(5)(
+[0][152709] tIndex->shmChk(6)(
+[0][152709] tIndex->shmChk(7)(
+[0][152709] tIndex->shmChk(8)(
+[0][152709] tIndex->shmChk(9)(
+[0][152709] isShared(0) <server_main>
+[0][152709] ipc.c-115-setShmSegData-setShmSegData
+[0][152709] ipc.c-168-getShmSeg-getShmSeg
+[0][152709] Send to Client [4][1024][succeed Locking] <server_main>
+[0][152709] CALL: sock_accept. <server_daemon>
+[0][152709] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][152709] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][152709] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][152709] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][152709] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][152709] OK:data->semKey(A), data->shmKey(K)
+[0][152709] OK:numSemKey(65), numShmKey(75)
+[0][152709] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][152709] OK:index(0)
+[0][152709] ipc.c-133-getShmSegData-getShmSegData
+[0][152709] CALL: sock_accept. <server_daemon>
+[0][152709] ipc.c-168-getShmSeg-getShmSeg
+[0][152709] tIndex->shmChk(1)
+[0][152709] tIndex->shmChk(0)(1)
+[0][152709] tIndex->shmChk(1)(
+[0][152709] tIndex->shmChk(2)(
+[0][152709] tIndex->shmChk(3)(
+[0][152709] tIndex->shmChk(4)(
+[0][152709] tIndex->shmChk(5)(
+[0][152709] tIndex->shmChk(6)(
+[0][152709] tIndex->shmChk(7)(
+[0][152709] tIndex->shmChk(8)(
+[0][152709] tIndex->shmChk(9)(
+[0][152709] isShared(1) <server_main>
+[0][152709] Send to Client [4][1024][fail Locking] <server_main>
+[0][152714] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][152714] CALL: sock_accept. <server_daemon>
+[0][152714] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][152714] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][152714] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][152714] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][152714] OK:data->semKey(A), data->shmKey(K)
+[0][152714] OK:numSemKey(65), numShmKey(75)
+[0][152714] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][152714] OK:index(0)
+[0][152714] ipc.c-133-getShmSegData-getShmSegData
+[0][152714] ipc.c-168-getShmSeg-getShmSeg
+[0][152714] tIndex->shmChk(1)
+[0][152714] tIndex->shmChk(0)(1)
+[0][152714] tIndex->shmChk(1)(
+[0][152714] tIndex->shmChk(2)(
+[0][152714] tIndex->shmChk(3)(
+[0][152714] tIndex->shmChk(4)(
+[0][152714] tIndex->shmChk(5)(
+[0][152714] tIndex->shmChk(6)(
+[0][152714] tIndex->shmChk(7)(
+[0][152714] tIndex->shmChk(8)(
+[0][152714] tIndex->shmChk(9)(
+[0][152714] isShared(1) <server_main>
+[0][152714] Send to Client [4][1024][fail Locking] <server_main>
+[0][152714] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][152714] CALL: sock_accept. <server_daemon>
+[0][152714] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][152714] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][152714] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][152714] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][152714] OK:data->semKey(A), data->shmKey(K)
+[0][152714] OK:numSemKey(65), numShmKey(75)
+[0][152714] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][152714] OK:index(0)
+[0][152714] ipc.c-133-getShmSegData-getShmSegData
+[0][152714] ipc.c-168-getShmSeg-getShmSeg
+[0][152714] tIndex->shmChk(1)
+[0][152714] tIndex->shmChk(0)(1)
+[0][152714] tIndex->shmChk(1)(
+[0][152714] tIndex->shmChk(2)(
+[0][152714] tIndex->shmChk(3)(
+[0][152714] tIndex->shmChk(4)(
+[0][152714] tIndex->shmChk(5)(
+[0][152714] tIndex->shmChk(6)(
+[0][152714] tIndex->shmChk(7)(
+[0][152714] tIndex->shmChk(8)(
+[0][152714] tIndex->shmChk(9)(
+[0][152714] isShared(1) <server_main>
+[0][152714] Send to Client [4][1024][fail Locking] <server_main>
+[0][152719] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][152719] CALL: sock_accept. <server_daemon>
+[0][152719] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][152719] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][152719] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][152719] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][152719] OK:data->semKey(A), data->shmKey(K)
+[0][152719] OK:numSemKey(65), numShmKey(75)
+[0][152719] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][152719] OK:index(0)
+[0][152719] ipc.c-133-getShmSegData-getShmSegData
+[0][152719] ipc.c-168-getShmSeg-getShmSeg
+[0][152719] tIndex->shmChk(1)
+[0][152719] tIndex->shmChk(0)(1)
+[0][152719] tIndex->shmChk(1)(
+[0][152719] tIndex->shmChk(2)(
+[0][152719] tIndex->shmChk(3)(
+[0][152719] tIndex->shmChk(4)(
+[0][152719] tIndex->shmChk(5)(
+[0][152719] tIndex->shmChk(6)(
+[0][152719] tIndex->shmChk(7)(
+[0][152719] tIndex->shmChk(8)(
+[0][152719] tIndex->shmChk(9)(
+[0][152719] isShared(1) <server_main>
+[0][152719] Send to Client [4][1024][fail Locking] <server_main>
+[0][152719] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][152719] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][152719] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][152719] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][152719] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][152719] OK:data->semKey(A), data->shmKey(K)
+[0][152719] OK:numSemKey(65), numShmKey(75)
+[0][152719] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][152719] OK:index(0)
+[0][152719] ipc.c-133-getShmSegData-getShmSegData
+[0][152719] ipc.c-168-getShmSeg-getShmSeg
+[0][152719] tIndex->shmChk(1)
+[0][152719] tIndex->shmChk(0)(1)
+[0][152719] tIndex->shmChk(1)(
+[0][152719] tIndex->shmChk(2)(
+[0][152719] tIndex->shmChk(3)(
+[0][152719] tIndex->shmChk(4)(
+[0][152719] CALL: sock_accept. <server_daemon>
+[0][152719] tIndex->shmChk(5)(
+[0][152719] tIndex->shmChk(6)(
+[0][152719] tIndex->shmChk(7)(
+[0][152719] tIndex->shmChk(8)(
+[0][152719] tIndex->shmChk(9)(
+[0][152719] isShared(1) <server_main>
+[0][152719] Send to Client [4][1024][fail Locking] <server_main>
+[0][154053] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][154053] CALL: sock_accept. <server_daemon>
+[0][154053] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][154053] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154053] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][154053] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][154053] OK:data->semKey(A), data->shmKey(K)
+[0][154053] OK:numSemKey(65), numShmKey(75)
+[0][154053] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][154053] OK:index(0)
+[0][154053] ipc.c-133-getShmSegData-getShmSegData
+[0][154053] ipc.c-168-getShmSeg-getShmSeg
+[0][154053] tIndex->shmChk(1)
+[0][154053] tIndex->shmChk(0)(1)
+[0][154053] tIndex->shmChk(1)(
+[0][154053] tIndex->shmChk(2)(
+[0][154053] tIndex->shmChk(3)(
+[0][154053] tIndex->shmChk(4)(
+[0][154053] tIndex->shmChk(5)(
+[0][154053] tIndex->shmChk(6)(
+[0][154053] tIndex->shmChk(7)(
+[0][154053] tIndex->shmChk(8)(
+[0][154053] tIndex->shmChk(9)(
+[0][154053] isShared(1) <server_main>
+[0][154053] Send to Client [4][1024][fail Locking] <server_main>
+[0][154053] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][154053] CALL: sock_accept. <server_daemon>
+[0][154053] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][154053] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154053] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "0", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][154053] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "0", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][154053] OK:data->semKey(A), data->shmKey(K)
+[0][154053] OK:numSemKey(65), numShmKey(75)
+[0][154053] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][154053] OK:index(0)
+[0][154053] ipc.c-115-setShmSegData-setShmSegData
+[0][154053] ipc.c-168-getShmSeg-getShmSeg
+[0][154053] Send to Client [4][1024][succeed UnLocking] <server_main>
+[0][154056] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][154056] CALL: sock_accept. <server_daemon>
+[0][154056] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][154056] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154056] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][154056] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][154056] OK:data->semKey(A), data->shmKey(K)
+[0][154056] OK:numSemKey(65), numShmKey(75)
+[0][154056] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][154056] OK:index(0)
+[0][154056] ipc.c-133-getShmSegData-getShmSegData
+[0][154056] ipc.c-168-getShmSeg-getShmSeg
+[0][154056] tIndex->shmChk(0)
+[0][154056] tIndex->shmChk(0)(0)
+[0][154056] tIndex->shmChk(1)(
+[0][154056] tIndex->shmChk(2)(
+[0][154056] tIndex->shmChk(3)(
+[0][154056] tIndex->shmChk(4)(
+[0][154056] tIndex->shmChk(5)(
+[0][154056] tIndex->shmChk(6)(
+[0][154056] tIndex->shmChk(7)(
+[0][154056] tIndex->shmChk(8)(
+[0][154056] tIndex->shmChk(9)(
+[0][154056] isShared(0) <server_main>
+[0][154056] ipc.c-115-setShmSegData-setShmSegData
+[0][154056] ipc.c-168-getShmSeg-getShmSeg
+[0][154056] Send to Client [4][1024][succeed Locking] <server_main>
+[0][154056] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][154056] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][154056] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154056] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "0", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][154056] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "0", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][154056] OK:data->semKey(A), data->shmKey(K)
+[0][154056] OK:numSemKey(65), numShmKey(75)
+[0][154056] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][154056] OK:index(0)
+[0][154056] ipc.c-115-setShmSegData-setShmSegData
+[0][154056] ipc.c-168-getShmSeg-getShmSeg
+[0][154056] CALL: sock_accept. <server_daemon>
+[0][154056] Send to Client [4][1024][succeed UnLocking] <server_main>
+[0][154059] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][154059] CALL: sock_accept. <server_daemon>
+[0][154059] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][154059] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154059] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][154059] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "1", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][154059] OK:data->semKey(A), data->shmKey(K)
+[0][154059] OK:numSemKey(65), numShmKey(75)
+[0][154059] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][154059] OK:index(0)
+[0][154059] ipc.c-133-getShmSegData-getShmSegData
+[0][154059] ipc.c-168-getShmSeg-getShmSeg
+[0][154059] tIndex->shmChk(0)
+[0][154059] tIndex->shmChk(0)(0)
+[0][154059] tIndex->shmChk(1)(
+[0][154059] tIndex->shmChk(2)(
+[0][154059] tIndex->shmChk(3)(
+[0][154059] tIndex->shmChk(4)(
+[0][154059] tIndex->shmChk(5)(
+[0][154059] tIndex->shmChk(6)(
+[0][154059] tIndex->shmChk(7)(
+[0][154059] tIndex->shmChk(8)(
+[0][154059] tIndex->shmChk(9)(
+[0][154059] isShared(0) <server_main>
+[0][154059] ipc.c-115-setShmSegData-setShmSegData
+[0][154059] ipc.c-168-getShmSeg-getShmSeg
+[0][154059] Send to Client [4][1024][succeed Locking] <server_main>
+[0][154059] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][154059] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][154059] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][154059] OK: ret(179). repStr({                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "0", 			"semKey"  : "A", 			"shmKey"  : "K"  			}). <readSocket:tcp_lib.c>
+[0][154059] Recv from Client [4][179][{                       			"pgm"     : "bgd_apply_cj_term_data", 			"site_cd" : "CGV", 			"ip"      : "127.0.0.1", 			"flag"    : "0", 			"semKey"  : "A", 			"shmKey"  : "K"  			}] <server_main>
+[0][154059] OK:data->semKey(A), data->shmKey(K)
+[0][154059] OK:numSemKey(65), numShmKey(75)
+[0][154059] OK:get_shm_id ipc_shm_key = 0x4b0088a4
+[0][154059] OK:index(0)
+[0][154059] ipc.c-115-setShmSegData-setShmSegData
+[0][154059] ipc.c-168-getShmSeg-getShmSeg
+[0][154059] CALL: sock_accept. <server_daemon>
+[0][154059] Send to Client [4][1024][succeed UnLocking] <server_main>

@@ -1,0 +1,131 @@
+[0][134019] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][134019] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][134019] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][134019] OK: ret(58). repStr(clientHSY127.0.0.10SMclientHSY127.0.0.10SM). <readSocket:tcp_lib.c>
+[0][134019] Recv from Client [4][58][clientHSY127.0.0.10SMclientHSY127.0.0.10SM] <server_main>
+[0][134019] Send to Client [4][-1][error message] <server_main>
+[0][134019] CALL: sock_accept. <server_daemon>
+[0][134426] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][134426] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][134426] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][134426] OK: ret(29). repStr(clientHSY127.0.0.10SM). <readSocket:tcp_lib.c>
+[0][134426] CALL: sock_accept. <server_daemon>
+[0][134426] Recv from Client [4][29][clientHSY127.0.0.10SM] <server_main>
+[0][134426] Send to Client [4][-1][error message] <server_main>
+[0][134912] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][134912] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][134912] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][134912] OK: ret(29). repStr(clientHSY127.0.0.10SM). <readSocket:tcp_lib.c>
+[0][134912] Recv from Client [4][29][clientHSY127.0.0.10SM] <server_main>
+[0][134912] Send to Client [4][-1][error message] <server_main>
+[0][134912] CALL: sock_accept. <server_daemon>
+[0][135159] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][135159] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][135159] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][135159] OK: ret(29). repStr(clientHSY127.0.0.10SM). <readSocket:tcp_lib.c>
+[0][135159] Recv from Client [4][29][clientHSY127.0.0.10SM] <server_main>
+[0][135159] Send to Client [4][-1][error message] <server_main>
+[0][135159] CALL: sock_accept. <server_daemon>
+[0][135302] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][135302] CALL: sock_accept. <server_daemon>
+[0][135302] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][135302] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][135302] OK: ret(29). repStr(clientHSY127.0.0.10SM). <readSocket:tcp_lib.c>
+[0][135302] Recv from Client [4][29][clientHSY127.0.0.10SM] <server_main>
+[0][135302] Send to Client [4][-1][error message] <server_main>
+[0][135359] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][135359] CALL: sock_accept. <server_daemon>
+[0][135359] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][135359] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][135359] OK: ret(29). repStr(clientHSY127.0.0.10SM). <readSocket:tcp_lib.c>
+[0][135359] Recv from Client [4][29][clientHSY127.0.0.10SM] <server_main>
+[0][135359] Send to Client [4][1024][error message] <server_main>
+[0][153759] START:init_ipc()
+[0][153759] init_ipc SEMAPHORE ID (2555914)
+[0][153759] OK:Semaphoer Set Succ SEMID(2555914)
+[0][153759] OK:get_shm_id ipc_key = 0x4d0088a4
+[0][153759] OK:get_shm_id shmid(7897110)
+[0][153759] END:init_ipc()
+[0][153759] DAEMON port(20040)
+[0][153759] DAEMON shared_status(1)
+[0][153759] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][153759] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][153759] CALL: sock_accept. <server_daemon>
+[0][154109] START:init_ipc()
+[0][154109] init_ipc SEMAPHORE ID (2588682)
+[0][154109] OK:Semaphoer Set Succ SEMID(2588682)
+[0][154109] OK:get_shm_id ipc_key = 0x4d0088a4
+[0][154109] OK:get_shm_id shmid(7929878)
+[0][154109] END:init_ipc()
+[0][154109] DAEMON port(20040)
+[0][154109] DAEMON shared_status(1)
+[0][154109] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][154109] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][154109] CALL: sock_accept. <server_daemon>
+[0][155122] START:init_ipc()
+[0][155122] init_ipc SEMAPHORE ID (2588682)
+[0][155122] OK:Semaphoer Set Succ SEMID(2588682)
+[0][155122] OK:get_shm_id ipc_key = 0x4d0088a4
+[0][155122] OK:get_shm_id shmid(7929878)
+[0][155122] END:init_ipc()
+[0][155122] DAEMON port(20040)
+[0][155122] DAEMON shared_status(0)
+[0][155122] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][155122] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][155122] CALL: sock_accept. <server_daemon>
+[0][155146] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][155146] CALL: sock_accept. <server_daemon>
+[0][155146] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][155146] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][155146] OK: ret(1). repStr(1). <readSocket:tcp_lib.c>
+[0][155146] Recv from Client [4][1][1] <server_main>
+[0][155146] ipc.c-165-getShmSegData-getShmSegData
+[0][155146] isShared(0) <server_main>
+[0][155146] ipc.c-148-setShmSegData-setShmSegData
+[0][155146] Send to Client [4][1024][succeed Locking] <server_main>
+[0][155208] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][155208] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][155208] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][155208] OK: ret(1). repStr(0). <readSocket:tcp_lib.c>
+[0][155208] Recv from Client [4][1][0] <server_main>
+[0][155208] ipc.c-148-setShmSegData-setShmSegData
+[0][155208] Send to Client [4][1024][succeed UnLocking] <server_main>
+[0][155208] CALL: sock_accept. <server_daemon>
+[0][162804] START:init_ipc()
+[0][162804] init_ipc SEMAPHORE ID (2588682)
+[0][162804] OK:Semaphoer Set Succ SEMID(2588682)
+[0][162804] OK:get_shm_id ipc_key = 0x4d0088a4
+[0][162804] OK:get_shm_id shmid(7929878)
+[0][162804] END:init_ipc()
+[0][162804] DAEMON port(20040)
+[0][162804] DAEMON shared_status(0)
+[0][162804] START: port(20040). <Open_Server_Socket:tcp_lib.c>
+[0][162804] OK: Open_Server_Socket. port(20040). <server_daemon>
+[0][162804] CALL: sock_accept. <server_daemon>
+[0][162819] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][162819] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][162819] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][162819] OK: ret(1). repStr(1). <readSocket:tcp_lib.c>
+[0][162819] Recv from Client [4][1][1] <server_main>
+[0][162819] ipc.c-165-getShmSegData-getShmSegData
+[0][162819] isShared(0) <server_main>
+[0][162819] ipc.c-148-setShmSegData-setShmSegData
+[0][162819] Send to Client [4][1024][succeed Locking] <server_main>
+[0][162819] CALL: sock_accept. <server_daemon>
+[0][162857] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][162857] CALL: sock_accept. <server_daemon>
+[0][162857] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][162857] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][162857] OK: ret(1). repStr(1). <readSocket:tcp_lib.c>
+[0][162857] Recv from Client [4][1][1] <server_main>
+[0][162857] ipc.c-165-getShmSegData-getShmSegData
+[0][162857] isShared(1) <server_main>
+[0][162857] Send to Client [4][1024][fail Locking] <server_main>
+[0][162923] accept OK. cli_addr(127.0.0.1). <sock_accept:tcp_lib.c>
+[0][162923] CALL: sock_accept. <server_daemon>
+[0][162923] Client 127.0.0.1 CONNECTED. <server_daemon>
+[0][162923] OK: select OK. pipe_fd(4). <readSocket:tcp_lib.c>
+[0][162923] OK: ret(1). repStr(0). <readSocket:tcp_lib.c>
+[0][162923] Recv from Client [4][1][0] <server_main>
+[0][162923] ipc.c-148-setShmSegData-setShmSegData
+[0][162923] Send to Client [4][1024][succeed UnLocking] <server_main>
