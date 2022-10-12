@@ -1,0 +1,14 @@
+EXE_PGM=$1
+DEFAULT_PROCESS="grep|vi|tail|cat|echo|ps"
+RUNNED_PGM=`ps -ef | grep $EXE_PGM | grep $USER | egrep -v $DEFAULT_PROCESS | awk '{print $8}' `
+KILLED_PGM=`ps -ef | grep $EXE_PGM | grep $USER | egrep -v $DEFAULT_PROCESS | awk '{print $2}' `
+echo $RUNNED_PGM
+
+if [ $1 ]
+then
+        echo kill -9 $RUNNED_PGM
+	kill -9 $KILLED_PGM
+else
+        echo no process
+fi
+#echo KILL_PROCESS `ps -ef | grep $1 | egrep -v "grep|vi|tail|cat|echo|ps" | awk '{print $8}' `
