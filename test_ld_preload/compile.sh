@@ -1,0 +1,1 @@
+gcc -shared -fPIC -o gethostname.so gethostname.c
