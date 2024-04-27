@@ -1,0 +1,5 @@
+docker run -it --name test spdbreader
+
+docker run -it --name test spdbreader version
+
+docker run -it --name test spdbreader config
